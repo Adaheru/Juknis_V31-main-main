@@ -1767,4 +1767,484 @@ export const contentData: Record<string, ContentItem> = {
       }
     ]
   },
+  /* heru-17/11/2025 */
+
+  /* heru-18/11/2025 */
+     'melihat-jadwal-operasi-dari-ruang-ok': {
+    id: 'melihat-jadwal-operasi-dari-ruang-ok',
+    menuKey: 'perawat',
+    submenuId: 'kamar-operasi',
+    itemTitle: 'Melihat Jadwal Operasi Dari Ruang OK',
+    steps: [
+      {
+        id: 'melihat-jadwal-operasi-dari-ruang-ok-step-1',
+        number: 1,
+        title: 'Melihat Jadwal Operasi Dari Ruang OK',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps, pilih operation theater',
+            'Setelah itu pilih view surgery request',
+            'Kemudian cek di kolom scheduled date & time',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  }, 
+
+       'proses-pelaksanaan-operasi': {
+    id: 'proses-pelaksanaan-operasi',
+    menuKey: 'perawat',
+    submenuId: 'kamar-operasi',
+    itemTitle: 'Proses Pelaksanaan Operasi',
+    steps: [
+      {
+        id: 'proses-pelaksanaan-operasi-step-1',
+        number: 1,
+        title: 'Proses Pelaksanaan Operasi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps, pilih Operation Theater',
+            'Setelah itu pilih view surgery request',
+            'Masuk ke halaman surgery request browser, kemudian cari nama pasien',
+            'Setelah itu klik select pilih modify surgery request',
+            'Masuk ke halaman data pasien, lalu cek kembali  prosedur tindakan yang akan dilakukan dan waktu tindakan operasi, apabila ada perubahan dapat langsung diperbaiki',
+            'Kemudian klik pada bagian operasi team, pilih category dan employee code name',
+            'Jika sudah klik tombol add',
+            'Lakukan langkah yang sama hingga semua tim operasi tercatat pada field operation team',
+            'Jika sudah selesai klik modify, kemudian tampil notifikasi reason for modification',
+            'Pilih reason lalu klik ikon ( + ), setelah itu klik ok',
+            'Maka akan tampil informasi “Record saved successfully”',
+            'Setelah itu klik tombol back',
+            'Kembali ke halaman surgery request browser, cari nama pasien ',
+            'Kemudian klik select, pilih validate surgery request',
+            'Setelah itu klik tombol validate, jika sudah klik tombol back',
+            'Kembali ke halaman surgery request browser, cari nama pasien',
+            'Setelah itu klik select, pilih PreAnesthesia Checkup',
+            'Masuk ke halaman data pasien, lengkapi informasi selengkap-lengkapnya',
+            'Jika sudah klik tombol save,',
+            'Kembali ke halaman surgery request browser, cari nama pasien',
+            'Lalu klik ikon segitiga hijau "start surgery"',
+            'Setelah itu klik Anasthesia record entry',
+            'Masuk ke halaman Anasthesia record entry, lengkapi data',
+            'Jika sudah klik tombol validate',
+            'Maka akan muncul informasi “Anasthesia record for OT request validated”',
+            'Setelah itu cari nama pasien, kemudian klik select pilih Operation Request Entry',
+            'Masuk ke halaman operation request entry, kemudian cek kembali data tersebut',
+            'Jika sudah sesuai klik save generate entry',
+            'Maka akan muncul informasi “General operation record entry saved successfully”',
+            'Setelah itu klik operation theater, lalu pilih menu view surgery request',
+            'Masuk ke halaman view surgery request, cari nama pasien',
+            'Kemudian klik select, pilih surgery timer',
+            'Masuk ke halaman surgery timer, isi kolom sponge count',
+            'Kemudian klik tombol save surgery timer',
+            'Maka akan muncul informasi “OT Timer saved successfully” ',
+            'Setelah itu klik operation theater, pilih menu view surgery request, ',
+            'Kemudian klik ikon segitiga (surgery completed)',
+            'Setelah itu klik select, pilih Billing',
+            'Masuk ke halaman surgery billing, cek total amount jika sudah sesuai klik tombol validate',
+            'Maka data akan tervalidasi',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+         'transfer-pasien-pasca-operasi-ke-ruang-perawatan': {
+    id: 'transfer-pasien-pasca-operasi-ke-ruang-perawatan',
+    menuKey: 'perawat',
+    submenuId: 'kamar-operasi',
+    itemTitle: 'Transfer Pasien Pasca Operasi ke Ruang Perawatan',
+    steps: [
+      {
+        id: 'transfer-pasien-pasca-operasi-ke-ruang-perawatan-step-1',
+        number: 1,
+        title: 'Transfer Pasien Pasca Operasi ke Ruang Perawatan',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps pilih Inpatient',
+            'Setelah itu pilih menu Nursing Work Bench',
+            'Kemudian klik search setelah itu cari nama pasien berdasarkan search criteria',
+            'Pada patient status pilih under IP care, kemudian klik tombol search',
+            'Jika nama pasien sudah ditemukan lalu klik “Related documents”, pilih patient transactions ',
+            'Masuk ke halaman transaction log, untuk mengecek kamar sebelumnya',
+            'Kemudian klik tombol back',
+            'Kembali ke halaman list pasien, lalu klik search setelah itu search nama pasien berdasarkan search criteria',
+            'Pada patient status pilih under IP care, kemudian klik tombol search',
+            'Jika nama pasien sudah ditemukan lalu klik administrative, pilih patient transfer',
+            'Tampil halaman form pending orders, lalu klik tombol processed',
+            'Masuk ke halaman transfer request, lalu klik ikon kaca pembesar pada kolom bed type and no',
+            'Kemudian lakukan pembebasan kamar (unblock) pada kamar pasien selanjutnya dengan cara pilih ward sesuai kelas kamar pasien sebelumnya dan pilih status bed "All"',
+            'Lalu cari kamar pasien yang akan dilakukan pembebasan atau unblock (kamar pasien sebelumnya)',
+            'setelah itu klik unblock',
+            'Lalu tampil notifikasi, “Do you want to release selected bed?” Klik tombol Yes',
+            'Maka akan muncul informasi “Bed released successfully”',
+            'Selanjutnya lakukan proses pemesanan kamar (block pada kamar tersebut) dengan cara pilih ward sesuai dengan status "Available"',
+            'Setelah itu pilih kembali bed type tersebut (keterangan sebelumnya unblock) sekarang sudah Available',
+            'Lalu klik tombol block',
+            'Kemudian kembali ke halaman transfer request, maka akan muncul keterangan kamar yang sudah dipilih yaitu pada kolom Bed type dan no.',
+            'Setelah itu lengkapi kolom reason, klik tombol transfer',
+            'Maka akan muncul informasi “Transfer request saved successfully”',
+            'Selanjutnya, klik menu transactions pada menu sisi bilah kiri lalu pilih transfer request',
+            'Lalu akan muncul data pasien sudah berhasil ditransfer dari kamar operasi ke kamar perawatan',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'pengkajian-pra-anasthesi': {
+    id: 'pengkajian-pra-anasthesi',
+    menuKey: 'perawat',
+    submenuId: 'kamar-operasi',
+    itemTitle: 'Pengkajian Pra Anasthesi',
+    steps: [
+      {
+        id: 'pengkajian-pra-anasthesi-step-1',
+        number: 1,
+        title: 'Pengkajian Pra Anasthesi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps, pilih operation theater',
+            'Setelah itu pilih view surgery request ',
+            'Pada halaman surgery request browser, cari nama pasien',
+            'Setelah itu klik select, pilih PreAnesthesia Checkup',
+            'Masuk ke halaman data pasien, lengkapi informasi selengkap-lengkapnya',
+            'Jika sudah klik tombol save',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+      'tindakan-operasi-dilakukan': {
+    id: 'tindakan-operasi-dilakukan',
+    menuKey: 'perawat',
+    submenuId: 'kamar-operasi',
+    itemTitle: 'Tindakan Operasi Dilakukan',
+    steps: [
+      {
+        id: 'tindakan-operasi-dilakukan-step-1',
+        number: 1,
+        title: 'Tindakan Operasi Dilakukan',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps, pilih operation theater',
+            'Setelah itu pilih view surgery request',
+            'Cari nama pasien, lalu klik ikon segitiga untuk melakukan start surgery ',
+            'Setelah itu klik Anasthesia record entry',
+            'Masuk ke halaman Anasthesia record entry, lengkapi data',
+            'Jika sudah klik tombol validate',
+            'Maka akan muncul informasi “Anasthesia record for OT request validated” ',
+            'Setelah itu cari nama pasien, kemudian klik select pilih Operation Request Entry ',
+            'Masuk ke halaman operation request entry, kemudian cek kembali data tersebut',
+            'Jika sudah sesuai klik save generate entry',
+            'Maka akan muncul informasi “General operation record entry saved successfully”',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'tindakan-operasi-yang-dilakukan-lebih-dari-1-dokter-dan-lebih-dari-1-tindakan-incision-type': {
+    id: 'tindakan-operasi-yang-dilakukan-lebih-dari-1-dokter-dan-lebih-dari-1-tindakan-incision-type',
+    menuKey: 'perawat',
+    submenuId: 'kamar-operasi',
+    itemTitle: 'Tindakan Operasi yang Dilakukan Lebih Dari 1 Dokter dan Lebih dari 1 Tindakan (Incision Type)',
+    steps: [
+      {
+        id: 'tindakan-operasi-yang-dilakukan-lebih-dari-1-dokter-dan-lebih-dari-1-tindakan-incision-type-step-1',
+        number: 1,
+        title: 'Tindakan Operasi yang Dilakukan Lebih Dari 1 Dokter dan Lebih dari 1 Tindakan (Incision Type)',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps, pilih Operation Theater',
+                  'Setelah itu pilih view surgery request',
+                  'Masuk ke halaman surgery request browser, kemudian cari pasien',
+                  'Setelah itu klik select pilih modify surgery request',
+                  'Masuk ke halaman data pasien',
+                  'Tentukan nama tindakan (procedure name)',
+                  'Pilih yang akan menjadi tindakan utama (beri tanda centang pada kolom primary procedure)',
+                  'Cek kesesuaian data pasien dan tim yang melakukan tindakan dengan mengklik  nama tindakan di setiap barisnya (pada kolom procedur name) dan memastikan nama operator, nama dokter anestesi, nama dr asisten, dan atau dr anak pendamping tindakan persalinan dengan sc sesuai dengan nama dokter tersebut',
+                  'Bila semua informasi sudah sesuai, klik tombol validate',
+                  'Maka akan tampil informasi “OT Request validated”',
+                  'Klik view all',
+                  'Lakukan langkah yang sama pada saat pelaksanaan operasi',
+                  'PreAnasthesia Checkup (Pengkajian PreAnasthesia)',
+                  'Start Surgery (Tindakan operasi dilakukan)',
+                  'Anasthesia record entry ',
+                  'Operation request entry',
+                  'Surgery timer (Validasi jadwal operasi yang diterima petugas kamar operasi)',
+                  'Surgery completed (Tindakan operasi selesai dilakukan)',
+                  'Selanjutnya yang perlu diperhatikan pada langkah ini adalah ketika akan melakukan validasi transaksi di kamar operasi',
+                  'Klik select, pilih billing',
+                  'Pilih Incision type',
+                  'Pada tindakan yang kedua pilih single 50% Multiple 25%  ',
+                  'Karena tindakan yang kedua dinilai 50% dari operasi yang ada',
+                  'Pilih single 50% Multiple 25%',
+                  'Selanjutnya pada planned procedures tindakan kedua dipilih departement type nya',
+                  'Pada contoh ini : tindakan debridement kecil',
+                  'Pilih single, karena di tindakan kedua pada incision type sebelumnya memilih single 50%',
+                  'Kemudian pada tindakan kamar operasi pilih departemen type : single',
+                  'Maka nilai pada kolom unitrate dan amount akan berubah setelah pilih single ',
+                  'Perfome procedure tindakannya harus dipilih dengan memberikan tanda centang',
+                  'Jika sudah selesai, klik save',
+                  'Maka akan tampil informasi “OT Billing saved successfully”',
+                  'Setelah itu klik select pilih billing kembali',
+                  'Cek data pasien, jika sudah sesuai klik validate',
+                  'Maka akan tampil informasi “OT Billing validated successfully”',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'validasi-jadwal-operasi-yang-diterima-petugas-kamar-operasi': {
+    id: 'validasi-jadwal-operasi-yang-diterima-petugas-kamar-operasi',
+    menuKey: 'perawat',
+    submenuId: 'kamar-operasi',
+    itemTitle: 'Validasi Jadwal Operasi yang Diterima Petugas Kamar Operasi',
+    steps: [
+      {
+        id: 'validasi-jadwal-operasi-yang-diterima-petugas-kamar-operasi-step-1',
+        number: 1,
+        title: 'Validasi Jadwal Operasi yang Diterima Petugas Kamar Operasi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps, pilih operation theater ',
+            'Setelah itu pilih view surgery request ',
+            'Masuk ke halaman view surgery request, cari nama pasien',
+            'Kemudian klik select, pilih surgery timer',
+            'Masuk ke halaman surgery timer, lengkapi informasi dan isi kolom sponge count',
+            'Klik tombol save surgery timer',
+            'Maka akan muncul informasi “OT Timer saved successfully”',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+  
+    'validasi-transaksi-di-kamar-operasi': {
+    id: 'validasi-transaksi-di-kamar-operasi',
+    menuKey: 'perawat',
+    submenuId: 'kamar-operasi',
+    itemTitle: 'Validasi Transaksi Di Kamar Operasi',
+    steps: [
+      {
+        id: 'validasi-transaksi-di-kamar-operasi-step-1',
+        number: 1,
+        title: 'Validasi Transaksi Di Kamar Operasi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps, pilih operation theater',
+            'Setelah itu pilih view surgery request',
+            'Cari nama pasien',
+            'Lalu klik ikon segitiga (surgery completed)',
+            'Setelah itu klik select, pilih Billing',
+            'Masuk ke halaman surgery billing, cek total amount ',
+            'Jika sudah sesuai klik tombol validate',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+      'prosedur-penerimaan-pasien-di-igd-atau-vk-op-emergency': {
+    id: 'prosedur-penerimaan-pasien-di-igd-atau-vk-op-emergency',
+    menuKey: 'perawat',
+    submenuId: 'perawat-igd',
+    itemTitle: 'Prosedur Penerimaan Pasien Di IGD atau VK (OP Emergency)',
+    steps: [
+      {
+        id: 'prosedur-penerimaan-pasien-di-igd-atau-vk-op-emergency-step-1',
+        number: 1,
+        title: 'Prosedur Penerimaan Pasien Di IGD atau VK (OP Emergency)',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps pilih Emergency',
+            'Kemudian pilih menu Emergency patients',
+            'Masuk ke halaman emergency, kemudian klik modify pada kolom triage',
+            'Pilih warna triage sesuai penilaian kondisi pasien kemudian klik tombol save',
+            'Setelah itu klik select pilih Receive OP ER',
+            'Masuk ke halaman emergency patient details, pada kolom service center pilih IGD',
+            'Setelah itu pilih Unit dan Consultant (sesuai kebutuhan)',
+            'Kemudian klik tombol Receive',
+            'Maka akan muncul informasi “The patient is received successfully”',
+            'Lalu klik tombol back',
+            'Kembali ke halaman emergency, klik tab Emergency OP Patients',
+            'Kemudian cari nama pasien, setelah itu klik select lalu pilih patient chart',
+            'Masuk ke halaman entry perawat, kemudian pilih menu clinical notes klik ikon tambah ( + )  ',
+            'Kemudian select encounter ',
+            'Lengkapi form add note isi title dan note',
+            'Jika sudah klik tombol save & publish',
+            'Tampil notifikasi publish options, klik processed',
+            'Tampil notifikasi clinical saved successfully,',
+            'Kemudian pilih menu Vitals, lalu klik ikon tambah (+)',
+            'Lengkapi informasi pada form vital, jika sudah klik save',
+            'Tampil informasi vital saved successfully',
+            'Jika sudah selesai klik back to emergency',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'prosedur-rawat-inap-dari-emergency': {
+    id: 'prosedur-rawat-inap-dari-emergency',
+    menuKey: 'perawat',
+    submenuId: 'perawat-igd',
+    itemTitle: 'Prosedur Rawat Inap Dari Emergency',
+    steps: [
+      {
+        id: 'prosedur-rawat-inap-dari-emergency-step-1',
+        number: 1,
+        title: 'Prosedur Rawat Inap Dari Emergency',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps pilih Keadaan Darurat (Emergency)',
+            'Lalu pilih menu Emergency Patients',
+            'Masuk ke halaman emergency, kemudian klik tab Pasien OP darurat (emergency)',
+            'Cari nama pasien lalu klik select, pilih Mark for IP (Pastikan admission request sudah dilakukan oleh dokter dan seluruh order sudah ditransaksi)',
+          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+          'pemulangan-dari-op-emergency': {
+    id: 'pemulangan-dari-op-emergency',
+    menuKey: 'perawat',
+    submenuId: 'perawat-igd',
+    itemTitle: 'Pemulangan Dari OP Emergency',
+    steps: [
+      {
+        id: 'pemulangan-dari-op-emergency-step-1',
+        number: 1,
+        title: 'Pemulangan Dari OP Emergency',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps pilih Emergency',
+            'Kemudian pilih menu Emergency patients',
+            'Masuk ke halaman emergency, klik tab emergency OP patients',
+            'cari nama pasien kemudian klik select pilih patient chart',
+            'Setelah itu cek data pasien tersebut pada menu Orders',
+            'Jika sudah sesuai kembali ke halaman emergency',
+            'Masuk ke halaman emergency, klik tab emergency OP patients ',
+            'cari nama pasien, kemudian klik select pilih close visit status',
+            'Tampil notifikasi untuk mengisi reason for close, lalu klik tombol yes ',
+            'Jika sudah diconfirm untuk close visit status, maka pilhan select pada nama pasien tersebut akan hilang',          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+  /* heru-18/11/2025 */
 };
