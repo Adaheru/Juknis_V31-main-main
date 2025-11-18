@@ -2246,5 +2246,383 @@ export const contentData: Record<string, ContentItem> = {
       }
     ]
   },
+
+    'proses-input-pemakaian-obat-ruangan': {
+    id: 'proses-input-pemakaian-obat-ruangan',
+    menuKey: 'perawat',
+    submenuId: 'farmasi-keperawatan',
+    itemTitle: 'Proses Input Pemakaian Obat Ruangan',
+    steps: [
+      {
+        id: 'proses-input-pemakaian-obat-ruangan-step-1',
+        number: 1,
+        title: 'Proses Input Pemakaian Obat Ruangan',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps pilih Rawat Inap (Inpatient)',
+            'Kemudian pilih menu Meja Perawat (Nursing work bench)',
+            'Cek data pasien, setelah itu pilih menu pharmacy pada sisi bilah kiri',
+            'Masuk ke halaman pharmacy, lalu klik menu transactions pada sisi bilah kiri',
+            'Pilih issue on demand',
+            'Setelah itu klik tombol issue on demand ',
+            'Masuk ke halaman issue drugs, cari data pasien berdasarkan nama atau no MRN',
+            'Pilih store, cari item name (untuk mencari item obat tambahkan simbol %)',
+            'Kemudian klik item obat tersebut',
+            'Jika sudah sesuai kemudian klik Confirm Dispense ',
+            'Lalu tampil informasi “Drugs dispensed successfully”',          {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'proses-retur-obat-ke-farmasi': {
+    id: 'proses-retur-obat-ke-farmasi',
+    menuKey: 'perawat',
+    submenuId: 'farmasi-keperawatan',
+    itemTitle: 'Proses Retur Obat Ke Farmasi',
+    steps: [
+      {
+        id: 'proses-retur-obat-ke-farmasi-step-1',
+        number: 1,
+        title: 'Proses Retur Obat Ke Farmasi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih rawat inap (Inpatient)',
+                  'Kemudian pilih menu Meja Perawat (Nursing work bench) ',
+                  'Masuk ke halaman rawat inap, lalu klik search',
+                  'Setelah itu cari pasien berdasarkan kriteria pencarian (search criteria)',
+                  'Pada patient status pilih Under IP care, klik pencarian (search)',
+                  'Kemudian cari data pasien',
+                  'Setelah itu pilih menu pharmacy pada sisi bilah kiri, pilih Drug Return request ',
+                  'Kemudian klik tombol Create return request',
+                  'Masuk ke halaman drug return request, kemudian cari pasien berdasarkan nama atau no. MRN',
+                  'Lalu pilih return store, klik tambahkan (add)',
+                  'Pada form dispensed items, klik ikon tambah (+)',
+                  'Kemudian klik close',
+                  'Lalu isi Drug return reason, lalu klik create reason request ',
+                  'Setelah itu muncul informasi “Return request saved successfully”',         
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+      'proses-retur-obat-pemakaian-ruangan': {
+    id: 'proses-retur-obat-pemakaian-ruangan',
+    menuKey: 'perawat',
+    submenuId: 'farmasi-keperawatan',
+    itemTitle: 'Proses Retur Obat Pemakaian Ruangan',
+    steps: [
+      {
+        id: 'proses-retur-obat-pemakaian-ruangan-step-1',
+        number: 1,
+        title: 'Proses Retur Obat Pemakaian Ruangan',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps pilih menu Pharmacy pada sisi bilah kiri,',
+          'Kemudian pilih menu pengembalian obat langsung (Direct drug return)',
+          'Cari pasien berdasarkan nama atau no MRN',
+          'Lalu pilih toko retur (store) kemudian klik tombol tambahkan (add)',
+          'Lalu klik ikon tambah (+) jika sudah klik tombol tutup (close) ',
+          'Kemudian isi alasan pengembalian obat (Reason), lalu klik Simpan (Save) ',
+          'Lalu akan tampil informasi “Pengembalian Obat berhasil disimpan"',         
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'prosedur-permintaan-barang-ke-gudang-umum': {
+    id: 'prosedur-permintaan-barang-ke-gudang-umum',
+    menuKey: 'perawat',
+    submenuId: 'inventory-keperawatan',
+    itemTitle: 'Prosedur Permintaan Barang Ke Gudang Umum',
+    steps: [
+      {
+        id: 'prosedur-permintaan-barang-ke-gudang-umum-step-1',
+        number: 1,
+        title: 'Prosedur Permintaan Barang Ke Gudang Umum',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu apps pilih menu inventory, lalu pilih stock indent',
+            'Masuk ke halaman Stock indent, klik new ',
+            'Pilih request store / location, issue store / location dan isi Remarks',
+            'Setelah itu klik Add line items',
+            'Tampil form add stock indent line item, isi form selengkapnya dan kolom dengan tanda bintang (*) wajib diisi',
+            'Lalu klik tombol Add, maka akan tampil informasi bahwa Added item telah ditambahkan',
+            'Jika sudah selesai klik tombol close',
+            'Kemudian akan tampil item yang sudah ditambahkan melalui add line item',
+            'Lalu klik Send for approval',
+            'Maka akan tampil informasi “Stock indent sent for approval',
+            'Lalu cek pada kolom approval status, jika keterangannya masih tertunda (pending) klik pilih lalu edit',
+            'Cek kembali data tersebut, jika sudah sesuai lalu klik Approval',
+            'Maka akan tampil informasi “Stock Indent Approved”',         
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'prosedur-permintaan-obat-ruangan-ke-farmasi': {
+    id: 'prosedur-permintaan-obat-ruangan-ke-farmasi',
+    menuKey: 'perawat',
+    submenuId: 'inventory-keperawatan',
+    itemTitle: 'Prosedur Permintaan Obat Ruangan Ke Farmasi',
+    steps: [
+      {
+        id: 'prosedur-permintaan-obat-ruangan-ke-farmasi-step-1',
+        number: 1,
+        title: 'Prosedur Permintaan Obat Ruangan Ke Farmasi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+            'Pada menu Apps pilih Inventory',
+            'Kemudian pilih stock indent pada menu transaction di sisi bilah kiri',
+            'Masuk ke halaman stock indent, lalu klik new',
+            'Pilih request store / location, issue store / location dan isi Remarks',
+            'Setelah itu klik Add line items',
+            'Tampil form add stock indent line item, isi form selengkapnya dan kolom dengan tanda bintang (*) wajib diisi',
+            'Lalu klik tombol Add, maka akan tampil informasi bahwa Added item telah ditambahkan',
+            'Jika sudah selesai klik tombol close',
+            'Kemudian akan tampil item yang sudah ditambahkan melalui add line item',
+            'Lalu klik Send for approval',
+            'Maka akan tampil informasi “Stock indent sent for approval',
+            'Lalu cek pada kolom approval status, jika keterangannya masih pending, klik select lalu pilih edit',
+            'Cek kembali data tersebut, jika sudah sesuai lalu klik Approval',
+            'Maka akan tampil informasi “Stock Indent Approved”',         
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+  
+        'prosedur-penerimaan-barang-farmasi-atau-gudang-umum': {
+    id: 'prosedur-penerimaan-barang-farmasi-atau-gudang-umum',
+    menuKey: 'perawat',
+    submenuId: 'inventory-keperawatan',
+    itemTitle: 'Prosedur Penerimaan Barang Farmasi atau Gudang Umum',
+    steps: [
+      {
+        id: 'prosedur-penerimaan-barang-farmasi-atau-gudang-umum-step-1',
+        number: 1,
+        title: 'Prosedur Penerimaan Barang Farmasi atau Gudang Umum',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps pilih Inventory ',
+          'Pilih stock receipt ',
+          'Cari no.document yang telah di create sebelumnya',
+          'Lalu klik edit',
+          'Maka akan tampil keterangan item yang telah diterima (stock receipt items)',         
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'prosedur-pengeluaran-bmhp': {
+    id: 'prosedur-pengeluaran-bmhp',
+    menuKey: 'perawat',
+    submenuId: 'inventory-keperawatan',
+    itemTitle: 'Prosedur Pengeluaran BMHP',
+    steps: [
+      {
+        id: 'prosedur-pengeluaran-bmhp-step-1',
+        number: 1,
+        title: 'Prosedur Pengeluaran BMHP',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps pilih Inventaris (Inventory)',
+          'Lalu pilih menu stock consumption',
+          'Masuk ke halaman stock consumption, klik New',
+          'Lengkapi informasi yaitu Pilih store, consumption departement, dan isi remarks',
+          'Jika sudah klik Add line items',
+          'Tampil form add line item, isi form selengkapnya dan kolom dengan tanda bintang (*) wajib diisi',
+          'Lalu klik tombol Add, maka akan tampil informasi bahwa Added item telah ditambahkan',
+          'Jika sudah selesai klik tombol close',
+          'Kemudian akan tampil item yang sudah ditambahkan melalui add line item',
+          'Lalu klik Send for approval',
+          'Maka akan tampil informasi “Stock consumption sent for approval',
+          'Lalu cek keterangan pada kolom approval status, jika keterangannya masih tertunda (pending) klik edit',
+          'Cek kembali data tersebut, jika sudah sesuai lalu klik Approval',
+          'Maka akan tampil informasi “Stock consumption Approved”',         
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+      'service-order-status-report': {
+    id: 'service-order-status-report',
+    menuKey: 'perawat',
+    submenuId: 'laporan-perawat',
+    itemTitle: 'Service Order Status Report',
+    steps: [
+      {
+        id: 'service-order-status-report-step-1',
+        number: 1,
+        title: 'Service Order Status Report',
+        description: 'Tujuan : Untuk pencocokan jumlah kunjungan rawat jalan',
+        details: [
+          'Pada halaman utama klik Report ',
+          'Pada sisi bilah kiri pilih menu Billing',
+          'Klik Reports',
+          'Pilih service order status report',
+          'Pada halaman service order status report pilih tanggal pada pilihan from - to date (disesuaikan)',
+          'Untuk melihat laporan klik ikon excel (disarankan)',
+          'Maka akan tampilan laporan sebagai berikut :',
+          'Lakukan filtering dengan melakukan blocking pada judul kolom (kolom A - kolom P)',
+          'Klik tombol filter',
+          'Pilih visit type : OP',
+          'Klik OK',
+          'Pada kolom P yang berjudul status order terdapat beberapa status kategori yaitu:',
+          'Order		 : Apabila masih di sisi user yang melakukan permintaan',
+          'Processed	 : Apabila sudah dilakukan finance clearance/settle invoice (ada invoice no)',
+          'In progress : Apabila order dalam proses pengerjaan oleh unit lain dan belum selesai (certified)',
+          'Lakukan pemilahan untuk kolom-kolom yang diperlukan, antara lain :',
+          {type : 'text', content : '1. MRN', level: 2 },
+          {type : 'text', content : '2. Patient name', level: 2 },
+          {type : 'text', content : '3. Visit type', level: 2 },
+          {type : 'text', content : '4. Order Number', level: 2 },
+          {type : 'text', content : '5. Order type', level: 2 },
+          {type : 'text', content : '6. Order item', level: 2 },
+          {type : 'text', content : '7. Ordered from', level: 2 },
+          {type : 'text', content : '8. Requested by', level: 2 },
+          {type : 'text', content : '9. Employee name', level: 2 },
+          {type : 'text', content : '10. Ordered date', level: 2 },
+          {type : 'text', content : '11. Processed date', level: 2 },
+          {type : 'text', content : '12. Invoice number', level: 2 },
+          {type : 'text', content : '13. Order status', level: 2 },
+          'Copy dan simpan file dengan diberi nama dokter terkait dan tanggal report dilakukan',
+          'Kirim file melalui email / whatsapp dengan hasil print',         
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'cocokan-transaksi-dokter-di-rawat-jalan': {
+    id: 'cocokan-transaksi-dokter-di-rawat-jalan',
+    menuKey: 'perawat',
+    submenuId: 'laporan-perawat',
+    itemTitle: 'Cocokan Transaksi Dokter Di Rawat Jalan',
+    steps: [
+      {
+        id: 'cocokan-transaksi-dokter-di-rawat-jalan-step-1',
+        number: 1,
+        title: 'Cocokan Transaksi Dokter Di Rawat Jalan',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama klik Report',
+          'Pilih menu Inpatient',
+          'Klik menu report',
+          'Pilih Processed service order',
+          'Pilih tanggal order (from - to date) ',
+          'Untuk processed date (from - to date) dilakukan clean / dikosongkan',
+          'Setelah dilakukan clean tanggal proses maka akan tampil sebagai berikut',
+          'Untuk melihat laporan klik ikon excel (disarankan)',
+          'Maka akan tampil laporan sebagai berikut :',
+          'Blok header excel dan pilih auto filter',
+          'Filter list dengan visit type : OP',
+          'Pilih nama consultant (dokter) yang diinginkan',
+          'Filter nama dokter',
+          'Klik OK',
+          'Setelah dipilih nama yang diinginkan, block semua field dan dicopy ke new sheet',
+          'Save as new file',
+          'Kirim file melalui email / whatsapp dokter atau diprint dan diserahkan ke dokter setelah selesai praktek',
+
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
   /* heru-18/11/2025 */
 };
