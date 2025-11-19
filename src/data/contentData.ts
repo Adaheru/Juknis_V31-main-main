@@ -2625,4 +2625,599 @@ export const contentData: Record<string, ContentItem> = {
     ]
   },
   /* heru-18/11/2025 */
+
+  /* heru-19/11/2025 */
+          'terima-order': {
+    id: 'terima-order',
+    menuKey: 'radiologi',
+    submenuId: 'terima-order',
+    itemTitle: 'Terima Order',
+    steps: [
+      {
+        id: 'terima-order-step-1',
+        number: 1,
+        title: 'Terima Order',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps, pilih menu RIS',
+                  'Lalu pilih Service Center Manager pada sisi bilah kiri',
+                  'Masuk ke halaman service center manager, kemudian pilih tanggal',
+                  'Pilih order status : Order  Lalu klik search',
+                  'Cari nama pasien kemudian klik icon berwarna biru, pilih accept patient',
+                  'Lalu pilih order status : Checked in  setelah itu klik tombol search',
+                  'Maka akan muncul nama pasien yang sebelumnya telah di accept,',
+                  'Klik icon berwarna biru lalu pilih start test',
+                  'Setelah itu pilih order status : In-progress',
+                  'Klik tombol search',
+                  'Klik icon berwarna biru, pilih Fill report',
+                  'Masuk ke halaman data pasien, isi field catch no',
+                  'Klik tombol save',
+                  'Lalu muncul sebuah form, lengkapi performing employee dan rendering employee',
+                  'Jika sudah memilih employee tersebut kemudian klik ikon tambah berwarna hijau',
+                  'Setelah itu klik tombol ok',
+                  'Lalu akan muncul informasi “Report is saved”',
+                  'Setelah itu klik tombol close',
+                  'Kembali ke halaman service center manager, kemudian klik upload (masih pada pasien yang sama)',
+                  'Kemudian tampil form upload details, isi keterangan pada field document name',
+                  'Kemudian klik tombol add untuk memilih foto',
+                  'Jika sudah klik tombol upload',
+                  'Jika foto sudah terupload, klik save',
+                  'Lalu klik tombol close',
+                  'Kembali ke halaman service center manager, kemudian klik icon berwarna biru pilih Fill report kembali (masih pada pasien yang sama)',
+                  'Masuk ke halaman data pasien, lalu klik Fill report',
+                  'Tampil form untuk catatan dokter, klik modify ',
+                  'Lengkapi catatan, setelah itu klik save',
+                  'Kembali ke halaman data pasien, lalu klik tombol close ',
+
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+            'terima-order-pasien-eksternal': {
+    id: 'terima-order-pasien-eksternal',
+    menuKey: 'radiologi',
+    submenuId: 'terima-order-pasien-eksternal',
+    itemTitle: 'Terima Order Pasien Eksternal',
+    steps: [
+      {
+        id: 'terima-order-pasien-eksternal-step-1',
+        number: 1,
+        title: 'Terima Order Pasien Eksternal',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, pilih patient care',
+          'Pilih menu CPOE Ordering',
+          'Cari pasien berdasarkan informasi nama atau no MRN',
+          'Pilih departement dengan : Radiologi',
+          'Beri tanda centang pada kolom Eksternal Consultant',
+          'Isi kolom Consulting Doctor',
+          'Klik New orders',
+          'Tampil form service order',
+          'Departement dan service center pilih : All',
+          'Cari service name : disesuaikan',
+          'Tanggal order : disesuaikan dengan tanggal order pasein',
+          'Setelah tampil item yang dicari pilih item tersebut',
+          'Klik Add service',
+          'Maka akan tampil data yang telah ditambahkan service pada halaman CPOE entry',
+          'Setelah itu klik save',
+          'Maka akan tampil informasi “Record is saved successfully”',
+          'Untuk melihat order radiologi pasien eksternal kembali ke menu Apps',
+          'Pilih RIS',
+          'Pada sisi bilah kiri klik menu RIS',
+          'Pilih Service center manager',
+          'Pada halaman service center manager ',
+          'Pilih order status : Ordered',
+          'Tanggal order : disesuaikan',
+          'Klik search',
+          'Maka akan tampil data order pasien eksternal',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+              'cetak-hasil-radiologi': {
+    id: 'cetak-hasil-radiologi',
+    menuKey: 'radiologi',
+    submenuId: 'cetak-hasil-radiologi',
+    itemTitle: 'Cetak Hasil Radiologi',
+    steps: [
+      {
+        id: 'cetak-hasil-radiologi-step-1',
+        number: 1,
+        title: 'Cetak Hasil Radiologi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, pilih menu RIS',
+          'Lalu pilih Service Center Manager pada sisi bilah kiri',
+          'Masuk ke halaman service center manager, isi field ordered to location : Radiologi',
+          'Pilih order status : Processed kemudian klik tombol search',
+          'Cari nama pasien, kemudian klik ikon biru pilih Fill report',
+          'Masuk ke halaman data pasien, lalu klik view report',
+          'Lalu akan tampil Report seperti berikut:',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'terima-order-lab': {
+    id: 'terima-order-lab',
+    menuKey: 'laboratorium',
+    submenuId: 'terima-order-lab',
+    itemTitle: 'Terima Order Lab',
+    steps: [
+      {
+        id: 'terima-order-lab-step-1',
+        number: 1,
+        title: 'Terima Order Lab',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps pilih menu Laboratory',
+          'Kemudian pilih menu Collect Sample',
+          'Cari pasien berdasarkan no.MRN, kemudian pilih status : Ordered',
+          'Pilih tanggal kemudian klik search',
+          'Setelah itu klik Generate',
+          'Kemudian tampil form print barcode labels, jika ingin mencetak klik print jika tidak klik close',
+          'Setelah itu pilih status : Sample generated klik search',
+          'Lalu klik collect',
+          'Maka akan muncul informasi “Sample collected successfully”',
+          'Kemudian pilih status : Sample collected klik search',
+          'Setelah itu klik send',
+          'Maka akan muncul “Sample sent successfully” ',
+          'Kemudian pilih Status : Sample send lalu klik search',
+          'Kemudian klik Accept sample ',
+          'Maka akan muncul informasi “Sample accepted successfully”',
+          'Kembali ke menu Apps, pilih Laboratory',
+          'Klik menu Perform Test',
+          'Cari pasien berdasarkan no.MRN, kemudian pilih status : Result Pending',
+          'Pilih Order date lalu klik search',
+          'Kemudian Isi hasil pada kolom result, jika sudah klik Result entered',
+          'Maka akan muncul informasi “Result saved successfully”',
+          'Pilih status : Result entered, klik search',
+          'Maka akan tampil keterangan dari nilai result yang sudah diisi sebelumnya',
+          'Lalu klik certify',
+          'Isi Certifying employee, kemudian klik certify',
+          'Maka akan muncul informasi “Result certified successfully”',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'mencetak-hasil-pemeriksaan-laboratorium': {
+    id: 'mencetak-hasil-pemeriksaan-laboratorium',
+    menuKey: 'laboratorium',
+    submenuId: 'mencetak-hasil-pemeriksaan-laboratorium',
+    itemTitle: 'Mencetak Hasil Pemeriksaan Laboratorium',
+    steps: [
+      {
+        id: 'mencetak-hasil-pemeriksaan-laboratorium-step-1',
+        number: 1,
+        title: 'Mencetak Hasil Pemeriksaan Laboratorium',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps pilih menu Laboratory',
+          'Kembali ke menu Apps, pilih Laboratory',
+          'Klik menu Perform Test ',
+          'Cari pasien berdasarkan no.MRN, pilih status : Result Pending',
+          'Pilih ordered date lalu klik search',
+          'Jika data pasien sudah ditemukan, lakukan isi hasil lab',
+          'Klik tombol result entered , maka data berhasil disimpan',
+          'Lakukan pencarian pasien sebelumnya yang sudah dilakukan isi hasil',
+          'Pilih status : Result certified, klik tombol search',
+          'Klik ceklis pada data pasien',
+          'Klik tombol certify, maka akan tampil pilihan certification employee',
+          'Pilih dokter lalu klik certify',
+          'Jika data sudah dilakukan certified, lakukan cetak hasil pemeriksaan',
+          'Klik ceklis pada data pasien, pilih tombol print',
+          'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+    'rujuk-ke-laboratorium-antar-cabang-pengguna-hinai': {
+    id: 'rujuk-ke-laboratorium-antar-cabang-pengguna-hinai',
+    menuKey: 'laboratorium',
+    submenuId: 'rujuk-ke-laboratorium-antar-cabang-pengguna-hinai',
+    itemTitle: 'Rujuk ke Laboratorium Antar cabang pengguna HINAI',
+    steps: [
+      {
+        id: 'rujuk-ke-laboratorium-antar-cabang-pengguna-hinai-step-1',
+        number: 1,
+        title: 'Rujuk ke Laboratorium Antar cabang pengguna HINAI',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih menu Laboratory',
+                  'Kemudian pilih Collect Sample',
+                  'Cari pasien berdasarkan no.MRN, kemudian pilih status : Ordered',
+                  'Pilih tanggal kemudian klik search',
+                  'Setelah itu tampil data pasien, klik tanda centang',
+                  'Klik tombol Generate',
+                  'Kemudian tampil form print barcode labels, ',
+                  'Jika ingin mencetak klik print, jika tidak klik close',
+                  'Setelah itu pilih status : Sample generated',
+                  'Klik search',
+                  'Setelah itu tampil data pasien, klik tanda centang',
+                  'Lalu klik collect',
+                  'Maka akan tampil informasi “Sample collected successfully”',
+                  'Setelah itu pilih status : Sample collected',
+                  'Klik search',
+                  'Setelah itu tampil data pasien, klik tanda centang',
+                  'Lalu klik send',
+                  'Maka akan tampil informasi “Sample sent successfully”',
+                  'Setelah itu pilih status : Sample send ',
+                  'Klik search',
+                  'Setelah itu tampil data pasien, klik tanda centang',
+                  'Lalu klik Accept sample',
+                  'Maka akan tampil informasi “Sample accepted successfully”',
+                  'Setelah itu pilih status : Sample received',
+                  'Klik search',
+                  'Setelah itu tampil data pasien, klik tanda centang',
+                  'Kembali ke menu Apps, pilih Laboratory',
+                  'Klik menu Perform Test',
+                  'Cari pasien berdasarkan no.MRN, kemudian pilih status : Result Pending',
+                  'Pilih Order date lalu klik search',
+                  'Tampil data pasien, klik tanda centang',
+                  'Klik Mark for External Sample',
+                  'Maka akan tampil informasi “Record is saved successfully”',
+                  'Kemudian klik sisi bilah kiri pilih menu transactions',
+                  'Klik external sample',
+                  'Setelah tampil data pasien, lalu klik tanda centang',
+                  'Klik send to external lab',
+                  'Kemudian lengkapi form yaitu isi sending remarks dan pilih site (rumah sakit)',
+                  'Maka akan tampil informasi “Record is successfully”',
+                  'Bagi RS penerima rujukan lakukan proses penerimaan sampel :',
+                  'Pada menu Laboratory pilih Perform Test',
+                  'Pilih External sampel pada Menu Transactions',
+                  'Ganti External status menjadi External Sample',
+                  'Klik Receive Sample',
+                  'Kemudian kembali ke Perform Test',
+                  'Masukan no MRN pasien dan rubah status menjadi Pending',
+                  'Klik search dan isi hasil',
+                  'Lakukan certify',
+                  'Maka akan muncul “Result Certified Successfully"',
+                  'Ganti status menjadi “Result Certified”',
+                  'Download hasil dan simpan sebagai dokumen, berikan nama file sesuai nama pasien, jenis pemeriksaan dan tanggal periksa pasien tersebut',
+                  'Pada kolom Action pilih File Upload',
+                  'Isi nama dokumen',
+                  'Klik Add',
+                  'Masukkan file yang sudah di download',
+                  'Klik Upload kemudian klik Save',
+                  'Akan muncul tampilan',
+                  'Klik Close',
+                  'Pada rumah sakit pengirim rujukan dapat langsung melihat hasil pasien pada EMR pasien tersebut, untuk PPA selain dokter dan perawat :',
+                  'Masukkan MRN pasien',
+                  'Pilih investigation',
+                  'Pilih laboratorium Patologi Klinik',
+                  'Klik View All',
+                  'Klik upload file',
+                  'Klik pada kolom yang berisi nama pasien untuk mengunduh hasil',
+                  'Pada rumah sakit pengirim rujukan dapat langsung melihat hasil pasien pada Patient Chart pasien tersebut, untuk PPA dokter dan perawat :',
+                  'Pada Menu Lab Result buka “Document”',
+                  'Klik file yang akan dilihat hasilnya',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+      'rujuk-ke-laboratorium-antar-cabang-bukan-pengguna-hinai-dan-lab-rujukan-lainnya': {
+    id: 'rujuk-ke-laboratorium-antar-cabang-bukan-pengguna-hinai-dan-lab-rujukan-lainnya',
+    menuKey: 'laboratorium',
+    submenuId: 'rujuk-ke-laboratorium-antar-cabang-bukan-pengguna-hinai-dan-lab-rujukan-lainnya',
+    itemTitle: 'Rujuk ke Laboratorium Antar Cabang Bukan Pengguna HINAI dan Lab Rujukan Lainnya',
+    steps: [
+      {
+        id: 'rujuk-ke-laboratorium-antar-cabang-bukan-pengguna-hinai-dan-lab-rujukan-lainnya-step-1',
+        number: 1,
+        title: 'Rujuk ke Laboratorium Antar Cabang Bukan Pengguna HINAI dan Lab Rujukan Lainnya',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih menu Laboratory',
+                  'Kemudian pilih Collect Sample',
+                  'Cari pasien berdasarkan no.MRN, kemudian pilih status : Ordered',
+                  'Pilih tanggal kemudian klik search',
+                  'Setelah itu tampil data pasien, klik tanda centang',
+                  'Klik tombol Generate',
+                  'Kemudian tampil form print barcode labels',
+                  'Jika ingin mencetak klik print, jika tidak klik close',
+                  'Setelah itu pilih status : Sample generated ',
+                  'Klik search',
+                  'Setelah itu tampil data pasien, klik tanda centang',
+                  'Lalu klik collect',
+                  'Maka akan tampil informasi “Sample collected successfully”',
+                  'Setelah itu pilih status : Sample collected',
+                  'Klik search',
+                  'Setelah itu tampil data pasien, klik tanda centang',
+                  'Lalu klik send',
+                  'Maka akan tampil informasi “Sample sent successfully”',
+                  'Setelah itu pilih status : Sample send ',
+                  'Klik search',
+                  'Setelah itu tampil data pasien, klik tanda centang',
+                  'Lalu klik Accept sample',
+                  'Maka akan tampil informasi “Sample accepted successfully”',
+                  'Setelah itu pilih status : Sample received',
+                  'Klik search',
+                  'Setelah itu tampil data pasien, klik tanda centang',
+                  'Kembali ke menu Apps, pilih Laboratory',
+                  'Klik menu Perform Test',
+                  'Cari pasien berdasarkan no.MRN, kemudian pilih status : Result Pending',
+                  'Pilih Order date lalu klik search',
+                  'Tampil data pasien, klik tanda centang',
+                  'Isi hasil “TERLAMPIR”',
+                  'Lakukan Certify',
+                  'Muncul “Result Certified Successfully”',
+                  'Ganti status menjadi “Result Certified”',
+                  'Download hasil dan simpan sebagai dokumen, berikan nama file sesuai nama pasien, jenis pemeriksaan dan tanggal periksa pasien tersebut',
+                  'Pada kolom Action pilih File Upload ',
+                  'Isi nama dokumen',
+                  'Klik Add',
+                  'Masukkan file yang sudah di download',
+                  'Klik Upload kemudian klik Save',
+                  'Bila akan melihat hasil maka pilih File Upload pada kolom Action, klik pada “Dokument Name”',
+                  'Untuk PPA selain dokter dan perawat bisa melihat hasil pasien pada EMR pasien tersebut dengan cara :',
+                  'Masukkan MRN pasien',
+                  'Pilih investigation',
+                  'Pilih laboratorium Patologi Klinik',
+                  'Klik View All',
+                  'Klik upload file',
+                  'Klik pada kolom yang berisi nama pasien untuk mengunduh hasil',
+                  'Untuk PPA dokter dan perawat dapat melihat hasil pasien pada Menu Patient Chart : ',
+                  'Pada Menu Lab Result buka “Document”',
+                  'Klik file yang akan dilihat hasilnya',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+
+        'terima-order-pasien-eksternal': {
+    id: 'terima-order-pasien-eksternal',
+    menuKey: 'laboratorium',
+    submenuId: 'terima-order-pasien-eksternal',
+    itemTitle: 'Terima Order Pasien Eksternal',
+    steps: [
+      {
+        id: 'terima-order-pasien-eksternal-step-1',
+        number: 1,
+        title: 'Terima Order Pasien Eksternal',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps, pilih Patient Care',
+                  'Pilih Menu CPOE Ordering',
+                  'Cari pasien berdasarkan informasi nama lengkap / MRN',
+                  'Lakukan identifikasi ke pasien dengan meminta pasien menyebutkan nama lengkap dan tanggal lahir',
+                  'Lihat pada kolom yang berada dibawah Existing Service Order,  bila ada status “Ordered” dengan Service name pemeriksaan laboratorium ',
+                        'perhatikan pada kolom action berikut :',
+                  'A.  Jika terdapat tanda lingkar merah  berarti pasien belum melakukan pembayaran, maka pasien dipersilahkan ke kasir untuk melakukan pembayaran',
+                  'B.   Jika tidak ada tanda lingkar merah, cek status pembayaran pada kolom action pada gambar kertas dan pencil dengan billing status “Invoiced”',
+                  'Kemudian persilahkan pasien masuk untuk dilakukan pengambilan sampel',
+                  'Bila tidak ada permintaan pemeriksaan dari dokter pengirim, lakukan :',
+                  'Pilih departement dengan : Laboratorium',
+                  'Beri tanda centang pada kolom Eksternal Consultant',
+                  'Isi kolom Consulting Doctor',
+                  'Klik New orders',
+                  'Tampil form service order',
+                  'Departement dan service center pilih : All',
+                  'Cari service name : disesuaikan',
+                  'Tanggal order : disesuaikan dengan tanggal order pasien',
+                  'Setelah tampil item yang dicari pilih item tersebut',
+                  'Klik Add service',
+                  'Maka akan tampil data yang telah ditambahkan service pada halaman CPOE entry',
+                  'Setelah itu klik save',
+                  'Maka akan tampil informasi “Record is saved successfully”',
+                  'Kembali ke menu Apps, pilih Laboratory',
+                  'Pilih collect sample',
+                  'Pada halaman lab orders',
+                  'Pilih status : Ordered',
+                  'Tanggal order : disesuaikan',
+                  'Klik search',
+                  'Maka akan tampil data order pasien eksternal',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+
+      'laporan-jumlah-pemeriksaan-lab': {
+    id: 'laporan-jumlah-pemeriksaan-lab',
+    menuKey: 'laboratorium',
+    submenuId: 'laporan-jumlah-pemeriksaan-lab',
+    itemTitle: 'Laporan Jumlah Pemeriksaan Lab',
+    steps: [
+      {
+        id: 'laporan-jumlah-pemeriksaan-lab-step-1',
+        number: 1,
+        title: 'Laporan Jumlah Pemeriksaan Lab',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama (Home) klik tab Report',
+          'Klik choose module',
+          'Kemudian pilih LAB',
+          'Klik menu Report',
+          'Pilih Test Count',
+          'Pilih tanggal sesuai dengan periode yang dibutuhkan (sampai dengan 31 hari)',
+          'Klik View Report',
+          'Pindahkan ke tampilan Excel dengan memilih ikon excel',
+          'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'laporan-pemeriksaan-yang-belum-selesai-pending': {
+    id: 'laporan-pemeriksaan-yang-belum-selesai-pending',
+    menuKey: 'laboratorium',
+    submenuId: 'laporan-pemeriksaan-yang-belum-selesai-pending',
+    itemTitle: 'Laporan Pemeriksaan yang Belum Selesai (Pending)',
+    steps: [
+      {
+        id: 'laporan-pemeriksaan-yang-belum-selesai-pending-step-1',
+        number: 1,
+        title: 'Laporan Pemeriksaan yang Belum Selesai (Pending)',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama (Home) klik tab Report',
+          'Klik Choose Module',
+          'Kemudian pilih LAB',
+          'Klik menu report',
+          'Pilih Pending List',
+          'Pilih tanggal sesuai dengan periode yang dibutuhkan (sampai dengan 30 hari)',
+          'Ubah Laboratory : Laboratorium Patologi Klinik',
+          'Klik View Report',
+          'Pindahkan ke tampilan Excel dengan memilih ikon excel',
+          'Maka akan tampil Laporan Pending List sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+          'laporan-turn-around-time-tat': {
+    id: 'laporan-turn-around-time-tat',
+    menuKey: 'laboratorium',
+    submenuId: 'laporan-turn-around-time-tat',
+    itemTitle: 'Laporan Turn Around Time (TAT)',
+    steps: [
+      {
+        id: 'laporan-turn-around-time-tat-step-1',
+        number: 1,
+        title: 'Laporan Turn Around Time (TAT)',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama (Home) klik tab Report',
+          'Klik choose module',
+          'Kemudian pilih LAB',
+          'Klik menu report',
+          'Pilih Turn Around Time (hrs) Summary',
+          'Pilih tanggal sesuai dengan periode yang dibutuhkan (sampai dengan 31 hari)',
+          'Ubah Laboratory : Laboratorium Patologi Klinik',
+          'Klik View Report',
+          'Pindahkan ke tampilan Excel dengan memilih ikon excel',
+          'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+  /* heru-19/11/2025 */
+
 };

@@ -306,7 +306,10 @@ export const menuData: MenuData = {
     {
       id: 'rujuk-lab',
       title: 'Merujuk Pemeriksaan Lab Ke Luar Antar Cabang Hermina dan Lab Rujukan Lainnya',
-      items: ['Merujuk Pemeriksaan Lab Ke Luar Antar Cabang Hermina dan Lab Rujukan Lainnya']
+      items: [
+        'Rujuk ke Laboratorium Antar cabang pengguna HINAI',
+        'Rujuk ke Laboratorium Antar Cabang Bukan Pengguna HINAI dan Lab Rujukan Lainnya',
+      ]
     },
     {
       id: 'terima-order-lab-eksternal',
