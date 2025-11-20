@@ -3220,4 +3220,338 @@ export const contentData: Record<string, ContentItem> = {
   },
   /* heru-19/11/2025 */
 
+  /* heru-20/11/2025 */
+        'permintaan-gudang-stock-indent': {
+    id: 'permintaan-gudang-stock-indent',
+    menuKey: 'inventory',
+    submenuId: 'permintaan-gudang-stock-indent',
+    itemTitle: 'Permintaan Gudang (Stock Indent)',
+    steps: [
+      {
+        id: 'permintaan-gudang-stock-indent-step-1',
+        number: 1,
+        title: 'Permintaan Gudang (Stock Indent)',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, Pilih Inventory',
+          'Pilih Stock indent',
+          'Kemudian klik tombol new',
+          'Masuk ke halaman Stock indent',
+          'Isi Request Store/Location (Asal ruangan yg meminta)',
+          'Isi Issue Store / Location (Tujuan gudang permintaan)',
+          'Isi kolom Remarks untuk keterangan',
+          'Klik tombol Add Line Item',
+          'Kemudian isi Item dan quantity yang di inginkan, setelah itu klik tombol Add',
+          'Jika sudah lengkap, klik tombol Save',
+          'Maka akan muncul informasi “Stock indent saved”',
+          'Proses Approval',
+          'Pada menu Apps, pilih inventory',
+          'Pilih stock indent',
+          'Cari ruangannya (issued store) yang dituju, kemudian klik select pada kolom action, kemudian pilih edit',
+          'Masuk ke halaman stock indent, lalu Klik tombol Approve',
+          'Muncul informasi bahwa “Stock indent Approved” ',
+          'Setelah itu klik Select pada kolom action, pilih SR to PR ',
+          'Muncul informasi bahwa “Purchase request created successfully”',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'pengeluaran-barang-stock-issue': {
+    id: 'pengeluaran-barang-stock-issue',
+    menuKey: 'inventory',
+    submenuId: 'pengeluaran-barang-stock-issue',
+    itemTitle: 'Pengeluaran Barang (Stock Issue)',
+    steps: [
+      {
+        id: 'pengeluaran-barang-stock-issue-step-1',
+        number: 1,
+        title: 'Pengeluaran Barang (Stock Issue)',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, Pilih Inventory',
+          'Pilih stock issues',
+          'Kemudian klik tombol new',
+          'Masuk ke halaman stock issues',
+          'Pilih Issue Store / Location : Farmasi',
+          'Pilih Receipt Store / Location : (Ruangan/gudang yang meminta)',
+          'Klik tombol convert form',
+          'Kemudian tampil form Convert Handler lalu pilih stock indent',
+          'Klik no document sesuai dengan no permintaan dari ruangan tersebut',
+          'Kemudian klik select all untuk barang yang akan dikeluarkan',
+          'Klik tombol OK',
+          'Setelah selesai klik tombol Send for Approval',
+          'Maka Pengeluaran Barang berhasil dilakukan',
+          'Proses Approval',
+          'Pilih menu Apps, pilih inventory',
+          'Pilih stock Issue',
+          'Cari ruangannya (issued store) yang dituju, kemudian klik select pada kolom action, kemudian pilih edit',
+          'Masuk ke halaman stock issue, lalu Klik tombol Approve',
+          'Muncul informasi bahwa “Stock Issue Approved”',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'penerimaan-barang-stock-receipt': {
+    id: 'penerimaan-barang-stock-receipt',
+    menuKey: 'inventory',
+    submenuId: 'penerimaan-barang-stock-receipt',
+    itemTitle: 'Penerimaan Barang (Stock Receipt)',
+    steps: [
+      {
+        id: 'penerimaan-barang-stock-receipt-step-1',
+        number: 1,
+        title: 'Penerimaan Barang (Stock Receipt)',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, Pilih Inventory',
+          'Pilih stock receipt',
+          'Kemudian klik tombol new',
+          'Pilih convert from stock issue',
+          'Masuk ke halaman Stock Receipt, lalu isi Receipt store / location',
+          'Klik Convert form',
+          'Kemudian tampil form Convert Handler lalu pilih stock issue',
+          'Klik no document pada header details',
+          'Kemudian klik select all',
+          'Setelah itu klik tombol OK',
+          'Lalu klik Send for Approval',
+          'Muncul informasi “Stock Receipt sent for approval”',
+          'Lalu klik tombol edit pada kolom action',
+          'Masuk ke halaman Stock receipt, lalu klik tombol Approve',
+          'Muncul informasi “Stock Receipt Approved”',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'retur-barang-internal-stock-return': {
+    id: 'retur-barang-internal-stock-return',
+    menuKey: 'inventory',
+    submenuId: 'retur-barang-internal-stock-return',
+    itemTitle: 'Retur Barang Internal (Stock Return)',
+    steps: [
+      {
+        id: 'retur-barang-internal-stock-return-step-1',
+        number: 1,
+        title: 'Retur Barang Internal (Stock Return)',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, Pilih Inventory',
+          'Pilih stock return',
+          'Kemudian klik tombol new',
+          'Pilih convert from stock receipt',
+          'Isi return store, issue store kemudian item barangnya',
+          'Isi quantity barang yang ingin diretur',
+          'Klik send approval',
+          'Setelah itu akan muncul pesan bahwa data sudah terkirim, lalu klik edit pada kolom action',
+          'Muncul halaman edit, lalu pilih tombol approve',
+          'Setelah itu akan muncul pesan bahwa data sudah diapprove, lalu klik edit pada kolom action',
+          'Muncul halaman edit kemudian pilih tombol related document',
+          'Klik stock receipt',
+          'Lalu pilih tombol print',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'transfer-obat-transfer-kode-barang': {
+    id: 'transfer-obat-transfer-kode-barang',
+    menuKey: 'inventory',
+    submenuId: 'transfer-obat-transfer-kode-barang',
+    itemTitle: 'Transfer Obat (Transfer Kode Barang)',
+    steps: [
+      {
+        id: 'transfer-obat-transfer-kode-barang-step-1',
+        number: 1,
+        title: 'Transfer Obat (Transfer Kode Barang)',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Inventory pilih masters, pada bilah sebelah kiri',
+          'Pilih item lalu klik tombol search',
+          'Untuk search criteria, pilih item name lalu contains lalu isi nama itemnya',
+          'Cari item barangnya, lalu klik edit pada kolom action',
+          'Pada tab account dan sales info check kolom purchase / inventory acc : stock account dan pada kolom account : sales account Leaf',
+          'Jika sudah sesuai,  pilih tab store/location ',
+          'Isi store/location',
+          'Kemudian klik tombol save',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+          'pengaturan-reorder-quantity-min---max': {
+    id: 'pengaturan-reorder-quantity-min---max',
+    menuKey: 'inventory',
+    submenuId: 'pengaturan-reorder-quantity-min---max',
+    itemTitle: 'Pengaturan ReOrder Quantity (Min - Max)',
+    steps: [
+      {
+        id: 'pengaturan-reorder-quantity-min---max-step-1',
+        number: 1,
+        title: 'Pengaturan ReOrder Quantity (Min - Max)',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Unduh spreadshseet dari Item reorder Details Report (Report → Inventory → Report → Item reorder Details Report) sesuai store yang ingin disesuaikan. Contoh : IGD',
+          'Pada spreadsheet, pilih item yang akan dilakukan penyesuaian reorder quantity (min-max)',
+          'Sesuaikan angka hanya pada kolom berikut :',
+          {type : 'text', content : 'Min days,', level: 2 },
+          {type : 'text', content : 'Max Days,', level: 2 },
+          {type : 'text', content : 'Ideal days', level: 2 },
+          {type : 'text', content : 'Lead Days,', level: 2 },
+          {type : 'text', content : 'Gap Days ( Order frequency)', level: 2 },
+          {type : 'text', content : 'Consumption periode', level: 2 },
+          {type : 'text', content : 'Min stock Qty (hanya untuk item emergensi)', level: 2 },
+          'Keterangan :',
+          {type : 'text', content : 'Locator code : Kode locator / tempat penyimpanan barang', level: 2 },
+          {type : 'text', content : 'Min : jumlah hari minimal barang tersedia/tersimpan di gudang', level: 2 },
+          {type : 'text', content : 'Max : Jumlah hari maximum barang tersedia/tersimpan di gudang', level: 2 },
+          {type : 'text', content : 'Lead Days : Lama hari dari PO terbit sampai dengan barang diterima', level: 2 },
+          {type : 'text', content : 'Ideal Days : Lama hari rata-rata barang tersedia/tersimpan di gudang', level: 2 },
+          {type : 'text', content : 'Min stok Qty : Jumlah stok minimal (khusus obat life saving)', level: 2 },
+          {type : 'text', content : 'Gap Days (Order Frequency) : jumlah hari melakukan PO (berapa hari sekali dilakukan order)', level: 2 },
+          {type : 'text', content : 'Consumption Periode :  Jumlah hari yang digunakan untuk menghitung total pemakaian', level: 2 },       
+          'Kirim list yang sudah diisi kepada PIC Farmasi Departemen Penunjang Medis untuk dilakuan review dan pembuatan tiket pengajuan kepada CDM',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'pengeluaran-barang-habis-pakaistock-consumption': {
+    id: 'pengeluaran-barang-habis-pakaistock-consumption',
+    menuKey: 'inventory',
+    submenuId: 'pengeluaran-barang-habis-pakaistock-consumption',
+    itemTitle: 'Pengeluaran Barang Habis Pakai(Stock Consumption)',
+    steps: [
+      {
+        id: 'pengeluaran-barang-habis-pakaistock-consumption-step-1',
+        number: 1,
+        title: 'Pengeluaran Barang Habis Pakai(Stock Consumption)',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Berikut adalah cara untuk melakukan Stock Taking Initiation :  Stock Taking Initiation',
+                  'Dalam melakukan stock taking initiation dapat dilakukan dengan 2 cara :',
+                  'Stock Taking Online',
+                  'Stock Taking dengan menggunakan worksheet Offline',
+                  'Cara untuk upload worksheet csv adalah sebagai berikut :  Upload worksheet csv',
+                  'Pada menu Apps, pilih Menu Inventory',
+                  'Lalu pilih menu Stock Taking Initiation',
+                  'Kemudian Klik Tombol New ',
+                  'Masuk ke halaman Stock Taking',
+                  'Isi Store (Ruangan yg akan dilakukan stok opname)',
+                  'Isi Team (Tim yang melakukan stok opname)',
+                  'Isi User Name (Petugas yang melakukan opname)',
+                  'Isi kolom Remarks untuk keterangan',
+                  'Setelah itu Klik tombol Add Line Item',
+                  'Kemudian pilih Item yang akan dilakukan penghitungan ',
+                  'Apabila item akan dipilh semua klik Select All',
+                  'Setelah itu klik tombol Submit',
+                  'Kemudian Klik Send Approval ',
+                  'Cari ruangannya, kemudian klik Action',
+                  'Masuk ke halaman Stock Taking, lalu Klik tombol Approve ',
+                  'Muncul informasi bahwa “Stock Taking Approved” ',
+                  'Kembali ke menu Inventory, lalu pilih Stock Taking',
+                  'Cari ruangannya, kemudian klik Action. ',
+                  'Masuk ke halaman Stock Taking, ',
+                  'Input Stock Quantity berdasarkan perhitungan Stock Fisik  ',
+                  'Isi Remarks untuk hasil perhitungan berbeda antara Stock Komputer dengan Stock Fisik',
+                  'Kemudian klik Send For Approval',
+                  'Secara sistem akan mengelompokan hasil perhitungan positif akan masuk ke dalam adjusment receipt sedangkan hasil perhitungan negatif akan masuk ke adjusment issue pada modul inventory adjusment',
+                  'Cari ruangannya, kemudian klik Action ',
+                  'Masuk ke halaman Stock Taking, lalu Klik tombol Approve ',
+                  'Muncul informasi bahwa “Stock Taking Approved” ',
+                  'Stock Taking Penyesuaian adalah sebagai berikut :  Stock Taking Penyesuaian',
+                  'Pilih Inventory Adjustment',
+                  'Pilih Adjustment Type (Adjustment Receipt / Adjustment Issue)',
+                  'Kemudian Klik Send Approval (Adjustment Receipt)',
+                  'Muncul informasi "Inventory Adjusment Sent for Approval" Lalu klik Action ',
+                  'Masuk ke halaman Inventory Adjustment, kemudian Klik tombol Approve (Adjustment Receipt)',
+                  'Muncul informasi bahwa “Inventory Adjustment Approved” (Adjustment Receipt)',
+                  'Pilih Adjustment Type (Adjustment Receipt / Adjustment Issue)',
+                  'Kemudian Klik Send Approval (Adjustment Issued)',
+                  'Muncul Informasi "Inventory Adjusment Sent for Approval" Kemudian klik Action',
+                  'Masuk ke halaman Inventory Adjustment, kemudian Klik tombol Approve (Adjustment Issued)',
+                  'Muncul informasi bahwa “Inventory Adjustment Approved” (Adjustment Issued)',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+  /* heru-20/11/2025 */
 };
