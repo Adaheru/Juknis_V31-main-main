@@ -3495,6 +3495,54 @@ export const contentData: Record<string, ContentItem> = {
         title: 'Pengeluaran Barang Habis Pakai(Stock Consumption)',
         description: 'Buka aplikasi dan pilih menu Apps',
         details: [
+                  'Pada menu Apps, pilih Inventory',
+                  'Pilih stock consumption',
+                  'Lalu klik New',
+                  'Pilih store dan isi field remarks',
+                  'Lalu klik Add line item',
+                  'Isi form add line items',
+                  {type : 'text', content : 'Cari item name', level: 2 },
+                  {type : 'text', content : 'Batch code', level: 2 },
+                  {type : 'text', content : 'Consumed quantity', level: 2 },
+                  {type : 'text', content : 'Remarks ', level: 2 },      
+                  'Lalu klik Add',
+                  'Maka akan tampil informasi bahwa item berhasil ditambahkan',
+                  'Klik send for approval',
+                  'Maka akan tampil informasi “Stock consumption sent for approval”',
+                  'Cari document status dan approval status “Pending”',
+                  'Lalu klik edit',
+                  'Cek data tesebut, jika sudah sesuai klik approve',
+                  'Maka akan tampil informasi “Stock consumption approved”',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+  /* heru-20/11/2025 */
+
+  /* heru-21/11/2025 */
+        'stock-opname': {
+    id: 'stock-opname',
+    menuKey: 'inventory',
+    submenuId: 'stock-opname',
+    itemTitle: 'Stock Opname',
+    steps: [
+      {
+        id: 'stock-opname-step-1',
+        number: 1,
+        title: 'Stock Opname',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
                   'Berikut adalah cara untuk melakukan Stock Taking Initiation :  Stock Taking Initiation',
                   'Dalam melakukan stock taking initiation dapat dilakukan dengan 2 cara :',
                   'Stock Taking Online',
@@ -3553,5 +3601,411 @@ export const contentData: Record<string, ContentItem> = {
       }
     ]
   },
-  /* heru-20/11/2025 */
+
+        'penyesuaian-barang': {
+    id: 'penyesuaian-barang',
+    menuKey: 'inventory',
+    submenuId: 'penyesuaian-barang',
+    itemTitle: 'Penyesuaian Barang',
+    steps: [
+      {
+        id: 'penyesuaian-barang-step-1',
+        number: 1,
+        title: 'Penyesuaian Barang',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, Pilih Inventory',
+          'Pilih inventory adjustment ',
+          'Klik tombol new, lalu pilih adjustment issue (Pilih sesuai kebutuhan, dalam contoh kasus ini memilih adjustment Issue)',
+          'Note :',
+          'Adjustment Receipt : Untuk Penyesuaian Hasil Positif (+)',
+          'Adjustment Issue : Untuk Penyesuaian Hasil Negatif (-)',
+          'Masuk ke halaman adjustment issue, Isi tanggal dan pilih store  (Store : Ruangan yang akan dilakukan penyesuaian)',
+          'Kemudian klik tombol add new (Add New : Untuk memasukkan data penyesuaian)',
+          'Isi form inventory adjustment, jika sudah klik tombol add',
+          'Klik tombol send approval',
+          'Setelah itu akan muncul pesan bahwa data sudah terkirim, lalu klik edit pada kolom action',
+          'Muncul halaman edit, lalu pilih tombol approve',
+          'Setelah itu akan muncul pesan bahwa data sudah diapprove, lalu klik edit pada kolom action',
+          'Muncul halaman edit kemudian pilih tombol related document',
+          'Lalu pilih tombol print',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+       'inventory-adjustment-with-quantity-and-value': {
+    id: 'inventory-adjustment-with-quantity-and-value',
+    menuKey: 'inventory',
+    submenuId: 'Laporan',
+    itemTitle: 'Penyesuaian Barang',
+    steps: [
+      {
+        id: 'inventory-adjustment-with-quantity-and-value-step-1',
+        number: 1,
+        title: 'Inventory Adjustment With Quantity and Value',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama (home) klik tab reports',
+          'Pilih inventory pada sisi bilah kiri',
+          'Klik inventory adjustment with quantity and value',
+          'Pilih branch, store dan tanggal (disesuaikan)',
+          'Dalam melihat tampilan laporan terdapat 4 tipe yaitu dalam bentuk tabel di sistem, melalui browser, pdf dan ms.excel',
+          'Klik icon report (sesuai pilihan)',
+          'Maka akan tampil laporan sebagai berikut :',
+          'Jika klik icon report tipe browser',
+          'Maka akan tampil laporan sebagai berikut :',
+          'Jika klik icon report dalam bentuk pdf',
+          'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+       'adjustment-details-report': {
+    id: 'adjustment-details-report',
+    menuKey: 'inventory',
+    submenuId: 'Laporan',
+    itemTitle: 'Adjustment Details Report',
+    steps: [
+      {
+        id: 'adjustment-details-report-step-1',
+        number: 1,
+        title: 'Adjustment Details Report',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama (home) klik tab reports',
+          'Pilih inventory pada sisi bilah kiri',
+          'Klik inventory adjustment detail reports',
+          'Pilih tanggal dan store (disesuaikan)',
+          'Dalam melihat tampilan laporan terdapat 4 tipe yaitu dalam bentuk tabel di sistem, html, pdf dan ms.excel',
+          'Klik icon report (sesuai pilihan)',
+          'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+       'inventory-adjustment-and-receipt': {
+    id: 'inventory-adjustment-and-receipt',
+    menuKey: 'inventory',
+    submenuId: 'Laporan',
+    itemTitle: 'Inventory Adjustment and Receipt',
+    steps: [
+      {
+        id: 'inventory-adjustment-and-receipt-step-1',
+        number: 1,
+        title: 'Inventory Adjustment and Receipt',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama (home) klik tab reports',
+          'Pilih inventory pada sisi bilah kiri',
+          'Klik inventory adjustment dan receipt',
+          'Pilih tanggal, branch dan store (disesuaikan)',
+          'Dalam melihat tampilan laporan terdapat 4 tipe yaitu dalam bentuk tabel di sistem, html, pdf dan ms.excel',
+          'Klik icon report (sesuai pilihan)',
+          'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+         'stock-ledger': {
+    id: 'stock-ledger',
+    menuKey: 'inventory',
+    submenuId: 'Laporan',
+    itemTitle: 'Stock Ledger',
+    steps: [
+      {
+        id: 'stock-ledger-step-1',
+        number: 1,
+        title: 'Stock Ledger',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama (home) klik tab reports',
+          'Pilih inventory pada sisi bilah kiri',
+          'Klik stock ledger',
+          'Pilih tanggal, branch, store dan item name (disesuaikan)',
+          'Dalam melihat tampilan laporan terdapat 4 tipe yaitu dalam bentuk tabel di sistem, html, pdf dan ms.excel',
+          'Klik icon report (sesuai pilihan)',
+          'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+         'stock-position-with-value-report': {
+    id: 'stock-position-with-value-report',
+    menuKey: 'inventory',
+    submenuId: 'Laporan',
+    itemTitle: 'Stock Position With Value Report',
+    steps: [
+      {
+        id: 'stock-position-with-value-report-step-1',
+        number: 1,
+        title: 'Stock Position With Value Report',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama (home) klik tab reports',
+          'Pilih inventory pada sisi bilah kiri',
+          'Klik stock position with value and report',
+          'Pilih branch, store dan item name (disesuaikan)',
+          'Dalam melihat tampilan laporan terdapat 4 tipe yaitu dalam bentuk tabel di sistem, html, pdf dan ms.excel',
+          'Klik icon report (sesuai pilihan)',
+          'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+         'stock-position-report': {
+    id: 'stock-position-report',
+    menuKey: 'inventory',
+    submenuId: 'Laporan',
+    itemTitle: 'Stock Position Report',
+    steps: [
+      {
+        id: 'Sstock-position-report-step-1',
+        number: 1,
+        title: 'Stock Position Report',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama (home) klik tab reports',
+          'Pilih inventory pada sisi bilah kiri',
+          'Klik stock position report',
+          'Pilih till date, store type, branch, store dan item name (disesuaikan)',
+          'Dalam melihat tampilan laporan terdapat 4 tipe yaitu dalam bentuk tabel di sistem, html, pdf dan ms.excel',
+          'Klik icon report (sesuai pilihan)',
+          'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+         'item-movement-summary': {
+    id: 'item-movement-summary',
+    menuKey: 'inventory',
+    submenuId: 'Laporan',
+    itemTitle: 'Item Movement Summary',
+    steps: [
+      {
+        id: 'item-movement-summary-step-1',
+        number: 1,
+        title: 'Item Movement Summary',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama (home) klik tab reports',
+          'Pilih inventory pada sisi bilah kiri',
+          'Klik item movement summary',
+          'Pilih tanggal, branch, store type, store dan item name (disesuaikan)',
+          'Dalam melihat tampilan laporan terdapat 4 tipe yaitu dalam bentuk tabel di sistem, html, pdf dan ms.excel',
+          'Klik icon report (sesuai pilihan)',
+          'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+         'report-fast-slow-non-moving': {
+    id: 'report-fast-slow-non-moving',
+    menuKey: 'inventory',
+    submenuId: 'Laporan',
+    itemTitle: 'Report Fast Slow Non Moving',
+    steps: [
+      {
+        id: 'report-fast-slow-non-moving-step-1',
+        number: 1,
+        title: 'Report Fast Slow Non Moving',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps pilih Reports',
+          'Pilih Inventory pada sisi bilah kiri, ',
+          'Klik menu reports pilih FSN Reports',
+          'Masuk ke halaman FSN Report',
+          'Pilih tanggal, Basis of analysis dan store (Disesuaikan)',
+          'Dalam melihat tampilan laporan terdapat 4 tipe yaitu dalam bentuk tabel di sistem, html, pdf dan ms.excel',
+          'Klik icon report (sesuai pilihan)',
+          'Maka akan tampil laporan sebagai berikut :',
+          'Kemudian lihat pada kolom F/ S/ N ',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+  
+         'item-reorder-details-report': {
+    id: 'item-reorder-details-report',
+    menuKey: 'inventory',
+    submenuId: 'Laporan',
+    itemTitle: 'Item Reorder Details Report',
+    steps: [
+      {
+        id: 'item-reorder-details-report-step-1',
+        number: 1,
+        title: 'Item Reorder Details Report',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada halaman utama (home) klik tab Reports',
+          'Pilih inventory pada sisi bilah kiri',
+          'Klik report, lalu pilih Item Reorder Details Report',
+          'Pilih branch dan store',
+          'Dalam melihat tampilan laporan terdapat 4 tipe yaitu dalam bentuk tabel di sistem, melalui browser, pdf dan ms.excel',
+          'Maka akan tampil laporan sebagai berikut jika:',
+          {type : 'text', content : '1. Klik icon report ', level: 2 },
+          {type : 'text', content : '2. Klik icon report tipe browser', level: 2 },
+          {type : 'text', content : '3. Klik icon report dalam bentuk pdf', level: 2 },
+          {type : 'text', content : '4. Klik icon ms.excel ', level: 2 },
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+  
+         'report-non-moving-dalam-periode-terakhir': {
+    id: 'report-non-moving-dalam-periode-terakhir',
+    menuKey: 'inventory',
+    submenuId: 'Laporan',
+    itemTitle: 'Report Non Moving Dalam Periode Terakhir',
+    steps: [
+      {
+        id: 'report-non-moving-dalam-periode-terakhir-step-1',
+        number: 1,
+        title: 'Report Non Moving Dalam Periode Terakhir',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps pilih Reports',
+          'Pilih Inventory pada sisi bilah kiri, ',
+          'Klik menu reports pilih Non-moving items report',
+          'Masuk ke halaman Non-moving items report',
+          'Pilih store dan isi number of days (Disesuaikan)',
+          'Dalam melihat tampilan laporan terdapat 4 tipe yaitu dalam bentuk tabel di sistem, html, pdf dan ms.excel',
+          'Klik icon report (sesuai pilihan)',
+          'Maka akan tampil laporan sebagai berikut :',
+          'Kemudian lihat pada kolom Last received date of GRN',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+  /* heru-21/11/2025 */
 };
