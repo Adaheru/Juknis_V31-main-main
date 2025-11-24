@@ -4574,5 +4574,425 @@ export const contentData: Record<string, ContentItem> = {
       }
     ]
   },
+
+        'pelunasan-transaksi-rawat-inap-dengan-cara-bayar-tunai': {
+    id: 'pelunasan-transaksi-rawat-inap-dengan-cara-bayar-tunai',
+    menuKey: 'keuangan',
+    submenuId: 'pelunasan-rawat-inap',
+    itemTitle: 'Pelunasan Transaksi Rawat Inap Dengan Cara Bayar Tunai',
+    steps: [
+      {
+        id: 'pelunasan-transaksi-rawat-inap-dengan-cara-bayar-tunai-step-1',
+        number: 1,
+        title: 'Pelunasan Transaksi Rawat Inap Dengan Cara Bayar Tunai',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih menu Hospital Account',
+                  'Pilih menu Billing pada Sisi Bilah Kiri, kemudian Klik Invoice Billing',
+                  'Masuk ke halaman invoice billing',
+                  'Klik select, pilih settle invoice',
+                  'Kemudian akan tampil data pasien',
+                  'Klik item pada tab adjust receipt',
+                  'Lalu klik kolom cash, isi jumlah nominal',
+                  'Klik settle invoice',
+                  'Maka akan tampil laporan sebagai berikut:',         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'pelunasan-transaksi-rawat-inap-dengan-cara-bayar-card': {
+    id: 'pelunasan-transaksi-rawat-inap-dengan-cara-bayar-card',
+    menuKey: 'keuangan',
+    submenuId: 'pelunasan-rawat-inap',
+    itemTitle: 'Pelunasan Transaksi Rawat Inap Dengan Cara Bayar Card',
+    steps: [
+      {
+        id: 'pelunasan-transaksi-rawat-inap-dengan-cara-bayar-card-step-1',
+        number: 1,
+        title: 'Pelunasan Transaksi Rawat Inap Dengan Cara Bayar Card',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih menu Hospital Account',
+                  'Pilih menu Billing pada Sisi Bilah Kiri, kemudian Klik Invoice Billing',
+                  'Masuk ke halaman invoice billing',
+                  'Klik select, pilih settle invoice',
+                  'Kemudian akan tampil data pasien',
+                  'Klik item pada tab adjust receipt',
+                  'Lalu klik kolom card',
+                  'Klik pay by credit card',
+                  'Isi data di credit card details dengan mengisi card no, bank name, authorization no, ',
+                  'lalu pilih card equipment dan card type',
+                  'Jika sudah klik tombol Update',
+                  'Lalu klik settle invoice',
+                  'Maka akan tampil laporan sebagai berikut:',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'pelunasan-rawat-inap-dengan-selisih-biaya-dibayar-di-rs': {
+    id: 'pelunasan-rawat-inap-dengan-selisih-biaya-dibayar-di-rs',
+    menuKey: 'keuangan',
+    submenuId: 'pelunasan-rawat-inap',
+    itemTitle: 'Pelunasan Rawat Inap Dengan Selisih Biaya Dibayar Di RS',
+    steps: [
+      {
+        id: 'pelunasan-rawat-inap-dengan-selisih-biaya-dibayar-di-rs-step-1',
+        number: 1,
+        title: 'Pelunasan Rawat Inap Dengan Selisih Biaya Dibayar Di RS',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih menu Hospital Account',
+                  'Pilih menu Billing pada Sisi Bilah Kiri, kemudian Klik Invoice Billing',
+                  'Cari nama pasien, dengan invoice status “Pending” dan status sudah di approved',
+                  'Klik select',
+                  'Pilih settle invoice',
+                  'Tampil data pasien',
+                  'Pilih metode pembayaran (disesuaikan)',
+                  'Klik settle invoice',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'pelunasan-rawat-inap-yang-dijamin-seluruhnya-oleh-jaminan-atau-asuransi': {
+    id: 'pelunasan-rawat-inap-yang-dijamin-seluruhnya-oleh-jaminan-atau-asuransi',
+    menuKey: 'keuangan',
+    submenuId: 'pelunasan-rawat-inap',
+    itemTitle: 'Pelunasan Rawat Inap yang Dijamin Seluruhnya Oleh Jaminan atau Asuransi',
+    steps: [
+      {
+        id: 'pelunasan-rawat-inap-yang-dijamin-seluruhnya-oleh-jaminan-atau-asuransi-step-1',
+        number: 1,
+        title: 'Pelunasan Rawat Inap yang Dijamin Seluruhnya Oleh Jaminan atau Asuransi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada halaman utama (home) pilih jumlah pending tasks',
+                  'Cari nama pasien',
+                  'Lalu klik form',
+                  'Tampil data pasien',
+                  'Cek kembali data pasien tersebut',
+                  'Lalu klik save and send for approval',
+                  'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'prosedur-pengajuan-pembatalan-transaksi': {
+    id: 'prosedur-pengajuan-pembatalan-transaksi',
+    menuKey: 'keuangan',
+    submenuId: 'pembatalan-transaksi',
+    itemTitle: 'Prosedur Pengajuan Pembatalan Transaksi',
+    steps: [
+      {
+        id: 'prosedur-pengajuan-pembatalan-transaksi-step-1',
+        number: 1,
+        title: 'Prosedur Pengajuan Pembatalan Transaksi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih menu Hospital Account',
+                  'Pilih menu billing klik invoice billing',
+                  'Cari pasien, klik select',
+                  'Pilih cancel invoice',
+                  'Maka akan tampil data pasien',
+                  'Pilih Reason dan isi cancel remarks',
+                  'Klik Request for cancel approval',
+                  'Maka akan tampil informasi “Invoice cancelled successfully”',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'prosedur-approval-transaksi-pembatalan': {
+    id: 'prosedur-approval-transaksi-pembatalan',
+    menuKey: 'keuangan',
+    submenuId: 'pembatalan-transaksi',
+    itemTitle: 'Prosedur Approval Transaksi Pembatalan',
+    steps: [
+      {
+        id: 'prosedur-approval-transaksi-pembatalan-step-1',
+        number: 1,
+        title: 'Prosedur Approval Transaksi Pembatalan',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada halaman utama home klik Pending task',
+                  'Cari nama pasien',
+                  'Kemudian klik form',
+                  'Tampil data pasien',
+                  'Lalu klik Approve',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'prosedur-penginputan-revisi-transaksi': {
+    id: 'prosedur-penginputan-revisi-transaksi',
+    menuKey: 'keuangan',
+    submenuId: 'pembatalan-transaksi',
+    itemTitle: 'Prosedur Penginputan Revisi Transaksi',
+    steps: [
+      {
+        id: 'prosedur-penginputan-revisi-transaksi-step-1',
+        number: 1,
+        title: 'Prosedur Penginputan Revisi Transaksi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih menu Hospital Account',
+                  'Pilih menu billing klik invoice billing',
+                  'Klik New, lalu pilih new kembali',
+                  'Cari pasien berdasarkan nama atau no MRN',
+                  'Tampil data pasien',
+                  'Klik ceklis kolom cash',
+                  'Isi collected cash amount',
+                  'Klik save and send for approval',
+                  'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'proses-penerimaan-uang-muka-dengan-cara-bayar-tunai': {
+    id: 'proses-penerimaan-uang-muka-dengan-cara-bayar-tunai',
+    menuKey: 'keuangan',
+    submenuId: 'uang-muka',
+    itemTitle: 'Proses Penerimaan Uang Muka Dengan Cara Bayar Tunai',
+    steps: [
+      {
+        id: 'proses-penerimaan-uang-muka-dengan-cara-bayar-tunai-step-1',
+        number: 1,
+        title: 'Proses Penerimaan Uang Muka Dengan Cara Bayar Tunai',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps, pilih hospital account pada sisi bilah kiri',
+                  'Klik collection request',
+                  'Cari nama pasien, klik select',
+                  'Pilih create receipt',
+                  'Maka akan tampil data pasien',
+                  'Klik ceklis pada kolom cash',
+                  'Lalu klik Accept Deposit and Print',
+                  'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'proses-penerimaan-uang-muka-dengan-cara-bayar-card': {
+    id: 'proses-penerimaan-uang-muka-dengan-cara-bayar-card',
+    menuKey: 'keuangan',
+    submenuId: 'uang-muka',
+    itemTitle: 'Proses Penerimaan Uang Muka Dengan Cara Bayar Card',
+    steps: [
+      {
+        id: 'proses-penerimaan-uang-muka-dengan-cara-bayar-card-step-1',
+        number: 1,
+        title: 'Proses Penerimaan Uang Muka Dengan Cara Bayar Card',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps, pilih hospital account pada sisi bilah kiri',
+                  'Klik collection request',
+                  'Cari nama pasien, klik select',
+                  'Pilih create receipt',
+                  'Maka akan tampil data pasien',
+                  'ceklis card lalu klik pay by credit card',
+                  'Isi data di credit card details dengan mengisi card no, bank name, authorization no, lalu pilih card equipment dan card type',
+                  'Jika sudah klik tombol Update',
+                  'Klik Accept Deposit and Print',
+                  'Maka akan tampilan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'penerimaan-uang-muka-berdasarkan-collection-type': {
+    id: 'penerimaan-uang-muka-berdasarkan-collection-type',
+    menuKey: 'keuangan',
+    submenuId: 'uang-muka',
+    itemTitle: 'Penerimaan Uang Muka Berdasarkan Collection Type',
+    steps: [
+      {
+        id: 'penerimaan-uang-muka-berdasarkan-collection-type-step-1',
+        number: 1,
+        title: 'Penerimaan Uang Muka Berdasarkan Collection Type',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps, pilih hospital account ',
+                  'Pilih menu billing pada sisi bilah kiri',
+                  'Klik collection request',
+                  'Lalu klik New',
+                  'Cari pasien berdasarkan no MRN atau nama',
+                  'Tampil data pasien, klik add request',
+                  'Pilih collection type',
+                  'Catatan : ',
+                      {type : 'text', content : 'Collection type on account    : Digunakan untuk deposit atau uang muka yang akan mengurangi total transaksi ', level: 2 },
+                     {type : 'text', content : 'Collection type security deposit  : ', level: 2 },
+                     {type : 'text', content : '1. Digunakan untuk deposit hanya sebagai jaminan dan tidak mengurangi total biaya ', level: 3 },
+                     {type : 'text', content : '2. Digunakan untuk cicilan depomil', level: 3 },
+                  'Isi jumlah pada field amount',
+                  'Lalu klik Add',
+                  'Klik ceklis pada kolom cash atau card (disesuaikan)',
+                  'Lalu klik Accept deposit and print',
+                  'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+          'penerimaan-uang-muka-untuk-transaksi-deposit-kedua-dan-selanjutnya': {
+    id: 'penerimaan-uang-muka-untuk-transaksi-deposit-kedua-dan-selanjutnya',
+    menuKey: 'keuangan',
+    submenuId: 'uang-muka',
+    itemTitle: 'Penerimaan Uang Muka Untuk Transaksi Deposit Kedua dan Selanjutnya',
+    steps: [
+      {
+        id: 'penerimaan-uang-muka-untuk-transaksi-deposit-kedua-dan-selanjutnya-step-1',
+        number: 1,
+        title: 'Penerimaan Uang Muka Untuk Transaksi Deposit Kedua dan Selanjutnya',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps, pilih Hospital Account',
+                  'Pada sisi bilah kiri klik menu Billing',
+                  'Pilih Collection request',
+                  'Klik New',
+                  'Cari pasien berdasarkan no. MRN atau nama',
+                  'Maka akan tampil data pasien',
+                  'Kemudian klik Add Request',
+                  'Pilih collection type dengan On Account',
+                  'Isi jumlah Amount',
+                  'Lalu klik Add ',
+                  'Maka data berhasil ditambahkan ',
+                  'Untuk pembayaran dapat dilakukan dengan cash atau card',
+                  'Cash : sesuai prosedur cash',
+                  'Card : sesuai prosedur card',
+                  'Contoh pembayaran dengan Cash',
+                  'Contoh pembayaran dengan Card ',
+                  'Pada contoh berikut pembayaran dilakukan dengan Cash',
+                  'Jika sudah sesuai klik Accept deposit and Print',
+                  'Maka akan tampil Bukti Pembayaran sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
     /* heru-24/11/2025 */
 };
