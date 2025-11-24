@@ -3969,7 +3969,6 @@ export const contentData: Record<string, ContentItem> = {
       }
     ]
   },
-
   
          'report-non-moving-dalam-periode-terakhir': {
     id: 'report-non-moving-dalam-periode-terakhir',
@@ -4008,4 +4007,572 @@ export const contentData: Record<string, ContentItem> = {
     ]
   },
   /* heru-21/11/2025 */
+
+    /* heru-24/11/2025 */
+
+        'proses-penerimaan-transaksi-rawat-jalan-tunai': {
+    id: 'proses-penerimaan-transaksi-rawat-jalan-tunai',
+    menuKey: 'keuangan',
+    submenuId: 'pelunasan-rawat-jalan',
+    itemTitle: 'Proses Penerimaan Transaksi Rawat Jalan Tunai',
+    steps: [
+      {
+        id: 'proses-penerimaan-transaksi-rawat-jalan-tunai-step-1',
+        number: 1,
+        title: 'Proses Penerimaan Transaksi Rawat Jalan Tunai',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps pilih menu Hospital Account',
+          'Pilih menu Billing pada Sisi Bilah Kiri, kemudian Klik Invoice Billing',
+          'Kemudian masuk ke halaman Invoice Billing',
+          'Pada menu tab invoice, kemudian klik tombol New',
+          'Lalu pilih New',
+          'Masuk ke halaman Final invoice',
+          'Cari pasien berdasarkan informasi Nama atau MRN',
+          'Setelah menemukan pasien, klik pada nama pasien maka surat tagihan untuk pasien akan muncul',
+          'Isi nama penanggung jawab kwitansi ( Nama Orang Tua Pasien/Nama Pasien/ Nama Penanggung Jawab/Nama Perusahaan ) di field payor name',
+          'Klik ceklis pada kolom cash',
+          'Masukan jumlah pembayaran yang diterima dari pasien pada field Collected Cash Amount',
+          'Klik di luar Field maka akan muncul jumlah yang harus dikembalikan pada pasien jika ada pada Amount To Be Returned',
+          'Klik tombol Save and Send For Approval',
+          'Maka akan tampil bukti pembayaran sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'proses-penerimaan-transaksi-rawat-jalan-card': {
+    id: 'proses-penerimaan-transaksi-rawat-jalan-card',
+    menuKey: 'keuangan',
+    submenuId: 'pelunasan-rawat-jalan',
+    itemTitle: 'Proses Penerimaan Transaksi Rawat Jalan Card',
+    steps: [
+      {
+        id: 'proses-penerimaan-transaksi-rawat-jalan-card-step-1',
+        number: 1,
+        title: 'Proses Penerimaan Transaksi Rawat Jalan Card',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps pilih menu Hospital Account',
+          'Pilih menu Billing pada Sisi Bilah Kiri, kemudian Klik Invoice Billing ',
+          'Kemudian masuk ke halaman Invoice Billing',
+          'Pada menu tab invoice, kemudian klik tombol New',
+          'Lalu pilih New',
+          'Kemudian masuk ke halaman Final invoice',
+          'Cari pasien berdasarkan informasi Nama atau MRN',
+          'Setelah menemukan pasien, data pasien akan muncul',
+          'Lengkapi data pada bagian payment details, ceklis card lalu klik pay by credit card',
+          'Isi data di credit card details dengan mengisi card no, bank name, authorization no, lalu pilih card equipment dan card type',
+          'Jika sudah klik tombol Update',
+          'Isi nama penanggung jawab kwitansi ( Nama Orang Tua Pasien/Nama Pasien/ Nama Penanggung Jawab/Nama Perusahaan ) di field payor name ',
+          'Jika nilai Amount sudah sesuai klik tombol Save and Send for Approval',
+          'Maka akan tampil Bukti Pembayaran sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+  
+        'jaminan-dengan-nama-customer-sesuai-dan-dengan-selisih-pembayaran': {
+    id: 'jaminan-dengan-nama-customer-sesuai-dan-dengan-selisih-pembayaran',
+    menuKey: 'keuangan',
+    submenuId: 'pelunasan-rawat-jalan',
+    itemTitle: 'Jaminan Dengan Nama Customer Sesuai dan Dengan Selisih Pembayaran',
+    steps: [
+      {
+        id: 'jaminan-dengan-nama-customer-sesuai-dan-dengan-selisih-pembayaran-step-1',
+        number: 1,
+        title: 'Jaminan Dengan Nama Customer Sesuai dan Dengan Selisih Pembayaran',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih menu Hospital Account',
+                  'Pilih menu Billing pada Sisi Bilah Kiri, kemudian Klik Invoice Billing',
+                  'Kemudian masuk ke halaman Invoice Billing',
+                  'Pada menu tab invoice, kemudian klik tombol New',
+                  'Lalu pilih New',
+                  'Kemudian masuk ke halaman Final invoice',
+                  'Cari pasien berdasarkan informasi Nama atau MRN',
+                  'Setelah menemukan pasien, data pasien akan muncul',
+                  'Kemudian pilih menu care plan pada sisi bilah kir',
+                  'Klik patient plan',
+                  'Klik New',
+                  'Cari pasien berdasarkan informasi Nama atau MRN',
+                  'Maka akan tampil data pasien',
+                  'Klik ikon kaca pembesar',
+                  'Ketik “Plan” pada kolom Name',
+                  'Lalu pilih visit type “OP”',
+                  'Isi authorization no dan approved ammount',
+                  'Klik Add authorization',
+                  'Setelah itu klik Update rule',
+                  'Klik save plan',
+                  'Maka akan tampil informasi “Data jaminan tersebut telah berhasil disimpan”',
+                  'Klik Related documents, pilih Patient invoice',
+                  'Pada menu tab invoice, kemudian klik tombol New',
+                  'Lalu pilih New',
+                  'Cari pasien berdasarkan informasi Nama atau MRN',
+                  'Maka data pasien akan tampil',
+                  'Isi nama penanggung jawab kwitansi ( Nama Orang Tua Pasien/Nama Pasien/ Nama Penanggung Jawab/Nama Perusahaan ) di field payor name',
+                  'Klik ceklis pada kolom cash atau card',
+                  'Cash yaitu sesuai tahapan cash ',
+                  'Card yaitu  sesuai tahapan card',
+                  'Masukan jumlah pembayaran yang diterima dari pasien pada field Collected Cash Amount',
+                  'Klik di luar Field maka akan muncul jumlah yang harus dikembalikan pada pasien jika ada pada Amount To Be Returned',
+                  'Klik tombol Save and Send For Approval',
+                  'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+          'jaminan-dengan-nama-customer-sesuai-dan-di-jamin-seluruhnya': {
+    id: 'jaminan-dengan-nama-customer-sesuai-dan-di-jamin-seluruhnya',
+    menuKey: 'keuangan',
+    submenuId: 'pelunasan-rawat-jalan',
+    itemTitle: 'Jaminan Dengan Nama Customer Sesuai dan di Jamin Seluruhnya',
+    steps: [
+      {
+        id: 'jaminan-dengan-nama-customer-sesuai-dan-di-jamin-seluruhnya-step-1',
+        number: 1,
+        title: 'Jaminan Dengan Nama Customer Sesuai dan di Jamin Seluruhnya',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps pilih menu Hospital Account',
+          'Pilih menu Billing pada Sisi Bilah Kiri, kemudian Klik Invoice Billing',
+          'Masuk ke halaman Invoice Billing',
+          'Pada menu tab invoice, klik tombol New',
+          'Lalu pilih New',
+          'Cari pasien berdasarkan no MRN atau nama',
+          'Maka akan tampil data pasien dengan keterangan bahwa pasien tersebut dijamin seluruhnya',
+          'Lalu klik save and send for approval',
+          'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+            'jaminan-dengan-selisih-pembayaran': {
+    id: 'jaminan-dengan-selisih-pembayaran',
+    menuKey: 'keuangan',
+    submenuId: 'pelunasan-rawat-jalan',
+    itemTitle: 'Jaminan Dengan Selisih Pembayaran',
+    steps: [
+      {
+        id: 'jaminan-dengan-selisih-pembayaran-step-1',
+        number: 1,
+        title: 'Jaminan Dengan Selisih Pembayaran',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps pilih menu Hospital Account',
+          'Pilih menu Billing pada sisi bilah kiri',
+          'Klik Invoice Billing',
+          'Masuk ke halaman Invoice Billing',
+          'Pada menu tab invoice, klik tombol New',
+          'Lalu pilih New',
+          'Masuk ke halaman Final invoice',
+          'Cari pasien berdasarkan informasi Nama atau MRN',
+          'Data pasien akan tampil',
+          'Input selisih pembayaran pasien agar muncul di kolom patient summary',
+          'Klik Related document',
+          'Pilih jaminan pasien (contoh pilih Admedika  - ABDA)',
+          'Masuk ke halaman data jaminan pasien',
+          'Cari “Plan OP”',
+          'Masuk ke halaman Plan Rule',
+          'Isi authorization no dan approved ammount',
+          'Klik Add authorization',
+          'Data telah berhasil ditambahkan ',
+          'Klik update and save',
+          'Maka akan tampil informasi “Data jaminan telah berhasil disimpan”',
+          'Klik Related documents',
+          'Pilih New invoice',
+          'Tampil keterangan nominal pada Sponsor Summary dan Patient Summary',
+          'Jika sudah sesuai klik tombol Save and Send For Approval',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'jaminan-dengan-plan-exclude-menjadi-tercover': {
+    id: 'jaminan-dengan-plan-exclude-menjadi-tercover',
+    menuKey: 'keuangan',
+    submenuId: 'pelunasan-rawat-jalan',
+    itemTitle: 'Jaminan Dengan Plan Exclude Menjadi Tercover',
+    steps: [
+      {
+        id: 'jaminan-dengan-plan-exclude-menjadi-tercover-step-1',
+        number: 1,
+        title: 'Jaminan Dengan Plan Exclude Menjadi Tercover',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih menu Hospital Account',
+                  'Pilih menu Billing pada Sisi Bilah Kiri, kemudian Klik Invoice Billing',
+                  'Kemudian masuk ke halaman Invoice Billing',
+                  'Pada menu tab invoice, kemudian klik tombol New',
+                  'Lalu pilih New',
+                  'Masuk ke halaman Final invoice',
+                  'Cari pasien berdasarkan informasi Nama atau MRN',
+                  'Lalu akan tampil data pasien',
+                  'Berikut data jaminan dengan plan exclude masih belum tercover',
+                  'Pilih menu care plan pada sisi bilah kiri',
+                  'Lalu klik patient plan',
+                  'Kemudian pilih New',
+                  'Cari pasien berdasarkan no. MRN atau nama',
+                  'Maka akan tampil data pasien',
+                  'Klik ikon kaca pembesar',
+                  'Ketik “Plan” pada kolom Name',
+                  'Pilih item service yang tidak dijamin',
+                  'Klik unchecklist di keterangan Exclusion',
+                  'Lalu klik Update rule',
+                  'Klik Save plan',
+                  'Maka akan tampil informasi bahwa data telah berhasil disimpan',
+                  'Klik Related documents',
+                  'Pilih patient invoices',
+                  'Klik New, lalu pilih New kembali',
+                  'Cari nama pasien berdasarkan nama pasien atau no.MRN',
+                  'Maka akan tampil data pasien',
+                  'Sekarang jaminan dengan plan exclude sudah tercover',
+                  'Lalu klik save and send  for approval',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'jaminan-dengan-mengubah-atau-mengedit-nilai-plan-yang-dijamin': {
+    id: 'jaminan-dengan-mengubah-atau-mengedit-nilai-plan-yang-dijamin',
+    menuKey: 'keuangan',
+    submenuId: 'pelunasan-rawat-jalan',
+    itemTitle: 'Jaminan Dengan Mengubah atau Mengedit Nilai Plan yang Dijamin',
+    steps: [
+      {
+        id: 'jaminan-dengan-mengubah-atau-mengedit-nilai-plan-yang-dijamin-step-1',
+        number: 1,
+        title: 'Jaminan Dengan Mengubah atau Mengedit Nilai Plan yang Dijamin',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih Hospital Account',
+                  'Pada sisi bilah kiri klik menu Care plan',
+                  'Pilih patient plan',
+                  'Klik search',
+                  'Lakukan pencarian data berdasarkan kriteria',
+                  'Contoh berikut menggunakan pencarian berdasarkan no.MRN pasien',
+                  'Klik search',
+                  'Data pasien sudah ditemukan',
+                  'Klik plan name pasien',
+                  'Tampil data pasien',
+                  'Klik ikon kaca pembesar',
+                  'Pada kolom name, cari dengan kata “plan”',
+                  'Klik Plan dengan Type : OP',
+                  'Tampil data plan pasien yang sudah ada',
+                  'Klik ikon edit',
+                  'Lakukan edit nilai yang dijamin,  bukan menginput nilai approved amount yang baru',
+                  'Ubah nilai plan (disesuaikan)',
+                  'Klik Add authorization',
+                  'Jika nilai plan sudah sesuai klik Update rule',
+                  'Kemudian klik save plan',
+                  'Maka akan tampil informasi plan sudah berhasil diperbarui',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+          'jaminan-pemeriksaan-penunjang-medis-yang-dilakukan-dengan-hari-yang-berbeda': {
+    id: 'jaminan-pemeriksaan-penunjang-medis-yang-dilakukan-dengan-hari-yang-berbeda',
+    menuKey: 'keuangan',
+    submenuId: 'pelunasan-rawat-jalan',
+    itemTitle: 'Jaminan Pemeriksaan Penunjang Medis yang Dilakukan Dengan Hari Yang Berbeda',
+    steps: [
+      {
+        id: 'jaminan-pemeriksaan-penunjang-medis-yang-dilakukan-dengan-hari-yang-berbeda-step-1',
+        number: 1,
+        title: 'Jaminan Pemeriksaan Penunjang Medis yang Dilakukan Dengan Hari Yang Berbeda',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih menu Hospital Account',
+                  'Pilih menu Billing pada Sisi Bilah Kiri, kemudian Klik Invoice Billing',
+                  'Kemudian masuk ke halaman Invoice Billing',
+                  'Pada menu tab invoice, kemudian klik tombol New',
+                  'Lalu pilih New',
+                  'Masuk ke halaman Final invoice',
+                  'Cari pasien berdasarkan informasi Nama atau MRN',
+                  'Kemudian klik item order yang diinginkan',
+                  'Lalu klik unbil items',
+                  'Pilih reason for unbilling : Penunjang beda hari',
+                  'Klik ok',
+                  'Klik save and send for approval',
+                  'Maka akan tampil informasi “Invoice saved successfully”',
+                  'Untuk melunasi transaksi yang diunbill klik New',
+                  'Pilih new kembali',
+                  'Masuk ke halaman Final invoice',
+                  'Cari pasien berdasarkan informasi Nama atau MRN',
+                  'Kemudian klik tab change item',
+                  'Klik tanda ceklis pada kolom select',
+                  'Klik tombol add',
+                  'Maka akan tampil informasi “successfully added to invoice”',
+                  'Maka item order tersebut tampil kembali',
+                  'Kemudian klik save and send for approval',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'jaminan-yang-tidak-dijamin-pada-akhir-transaksi': {
+    id: 'jaminan-yang-tidak-dijamin-pada-akhir-transaksi',
+    menuKey: 'keuangan',
+    submenuId: 'pelunasan-rawat-jalan',
+    itemTitle: 'Jaminan yang Tidak Dijamin Pada Akhir Transaksi',
+    steps: [
+      {
+        id: 'jaminan-yang-tidak-dijamin-pada-akhir-transaksi-step-1',
+        number: 1,
+        title: 'Jaminan yang Tidak Dijamin Pada Akhir Transaksi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih menu Hospital Account',
+                  'Pilih menu Billing pada Sisi Bilah Kiri, kemudian Klik Invoice Billing',
+                  'Kemudian masuk ke halaman Invoice Billing',
+                  'Pada menu tab invoice, kemudian klik tombol New',
+                  'Lalu pilih New',
+                  'Masuk ke halaman Final invoice',
+                  'Cari pasien berdasarkan informasi Nama atau MRN',
+                  'Tampil data pasien',
+                  'Tampil jumlah nominal yang dijaminkan',
+                  'Klik care plan, kemudian hilangkan tanda centang pada kolom penjamin',
+                  'Kemudian data penjamin telah tercover',
+                  'Setelah itu klik ptanda centang pada field cash',
+                  'Isi jumlah nominal',
+                  'Klik save and send for approval',
+                  'Maka data pasien telah berhasil tersimpan',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'pembayaran-jaminan-dengan-ganti-customer-penjamin': {
+    id: 'pembayaran-jaminan-dengan-ganti-customer-penjamin',
+    menuKey: 'keuangan',
+    submenuId: 'pelunasan-rawat-jalan',
+    itemTitle: 'Pembayaran Jaminan Dengan Ganti Customer Penjamin',
+    steps: [
+      {
+        id: 'pembayaran-jaminan-dengan-ganti-customer-penjamin-step-1',
+        number: 1,
+        title: 'Pembayaran Jaminan Dengan Ganti Customer Penjamin',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih menu Hospital Account',
+                  'Pilih menu Billing pada sisi bilah kiri',
+                  'Klik Invoice Billing',
+                  'Masuk ke halaman Invoice',
+                  'Klik New, pilih New',
+                  'Cari pasien berdasarkan nama atau no.MRN',
+                  'Tampil data pasien, cek data jaminan pasien',
+                  'Kemudian jaminan tersebut ingin diganti dengan jaminan yang baru',
+                  'Klik menu care plan, pilih patient policy details',
+                  'Cari pasien berdasarkan nama atau no.MRN',
+                  'Lengkapi form pada kolom sebagai berikut :',
+                  'Plan name',
+                  'Policy valid until',
+                  'Policy start date',
+                  'Group id/policy no',
+                  'Billing order',
+                  'Klik pada kolom active',
+                  'Klik tombol save',
+                  'Maka akan tampil informasi “Policy details saved successfully”',
+                  'Sekarang pasien memiliki dua data jaminan, dan keduanya aktif.',
+                  'Untuk menonaktifkan salah satu jaminan yaitu pilih salah satu data jaminan yang ingin dinonaktifkan',
+                  'Klik edit',
+                  'Hilangkan tanda centang pada kolom active',
+                  'Klik tombol save',
+                  'Maka akan tampil informasi “Policy details saved successfully”',
+                  'Kemudian klik related documents',
+                  'Pilih patient invoices',
+                  'Kembali ke halaman invoices',
+                  'Klik New, pilih new',
+                  'Cari pasien berdasarkan nama atau no.MRN',
+                  'Maka data jaminan pasien tersebut sudah terganti',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'prosedur-penginputan-transaksi-pasien-masalah-rawat-jalan': {
+    id: 'prosedur-penginputan-transaksi-pasien-masalah-rawat-jalan',
+    menuKey: 'keuangan',
+    submenuId: 'pelunasan-rawat-jalan',
+    itemTitle: 'Prosedur Penginputan Transaksi Pasien Masalah Rawat Jalan',
+    steps: [
+      {
+        id: 'prosedur-penginputan-transaksi-pasien-masalah-rawat-jalan-step-1',
+        number: 1,
+        title: 'Prosedur Penginputan Transaksi Pasien Masalah Rawat Jalan',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+          'Pada menu Apps, pilih Hospital Account',
+          'Pada sisi bilah kiri klik menu Billing',
+          'Pilih invoice billing',
+          'Pada halaman invoice billing klik New',
+          'Pilih new',
+          'Cari pasien berdasarkan no.MRN atau nama',
+          'Tampil data pasien  sebagai berikut :',
+          'Keterangan :',
+          {type : 'text', content : '1.  Input nilai kekurangan pembayaran pasien menjadi "JAMINAN PASIEN MASALAH RAWAT JALAN"', level: 2 },
+          {type : 'text', content : '2.  Lakukan penginputan nama penjamin dahulu di Patient Policy Details', level: 2 },
+          'Pada sisi bilah kiri klik menu care plan',
+          'Pilih patient policy details',
+          'Cari pasien berdasarkan no. MRN atau nama',
+          'Pilih plan name dengan Pasien Masalah Rawat Jalan',
+          'Lengkapi form pada kolom sebagai berikut :',
+          {type : 'text', content : 'Policy valid until', level: 2 },
+          {type : 'text', content : 'Policy start date', level: 2 },
+          {type : 'text', content : 'Group id/policy no', level: 2 },
+          {type : 'text', content : 'Billing order', level: 2 },
+          {type : 'text', content : 'Klik pada kolom active', level: 2 },
+          {type : 'text', content : 'Klik tombol save', level: 2 },
+          'Maka akan tampil informasi “Policy details saved successfully”',
+          'Pada sisi bilah kiri klik menu care plan',
+          'Pilih patient plan',
+          'Setelah itu input nilai kekurangan pembayaran pasien',
+          'Klik New',
+          'Cari pasien berdasarkan no. MRN atau nama',
+          'Tampil data pasien',
+          'Untuk menginput plan, klik ikon kaca pembesar',
+          'Pada kolom name, cari dengan kata “plan”',
+          'Klik Plan dengan Type : OP',
+          'Isi kolom authorization. no dan approved amount (Nilai kekurangan pembayaran pasien)',
+          'Klik add authorization',
+          'Jika sudah sesuai klik update rule',
+          'Kemudian klik save plan',
+          'Maka akan tampil informasi “Pasien Masalah Rawat Jalan is successfully saved”',
+          'Pada sisi bilah kiri klik menu Billing',
+          'Pilih invoice billing',
+          'Pada halaman invoice billing klik New',
+          'Pilih new',
+          'Cari pasien berdasarkan no.MRN atau nama',
+          'Pada keterangan care plan pasien sudah tercover dengan plan Pasien masalah rawat jalan',
+          'Klik save and send for approval',
+          'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+    /* heru-24/11/2025 */
 };
