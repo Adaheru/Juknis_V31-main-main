@@ -5178,5 +5178,115 @@ export const contentData: Record<string, ContentItem> = {
       }
     ]
   },
+
+        'prosedur-penginputan-nilai-diskon': {
+    id: 'prosedur-penginputan-nilai-diskon',
+    menuKey: 'keuangan',
+    submenuId: 'discount',
+    itemTitle: 'Prosedur Penginputan Nilai Diskon',
+    steps: [
+      {
+        id: 'prosedur-penginputan-nilai-diskon-step-1',
+        number: 1,
+        title: 'Prosedur Penginputan Nilai Diskon',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih menu Hospital Account',
+                  'Pilih menu billing, klik invoice billing',
+                  'Kemudian masuk ke halaman Invoice Billing',
+                  'Pada menu tab invoice, kemudian klik tombol New',
+                  'Lalu pilih New',
+                  'Cari pasien berdasarkan no MRN atau nama',
+                  'Maka akan tampil data pasien',
+                  'Pilih discount',
+                  'Isi nominal diskon yang diberikan',
+                  'Klik item yang akan diberikan diskon',
+                  'Klik Apply',
+                  'Pilih discount reason (disesuaikan) ',
+                  'Kemudian klik save and send for approval',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'proses-approval-diskon': {
+    id: 'proses-approval-diskon',
+    menuKey: 'keuangan',
+    submenuId: 'discount',
+    itemTitle: 'Proses Approval Diskon',
+    steps: [
+      {
+        id: 'proses-approval-diskon-step-1',
+        number: 1,
+        title: 'Proses Approval Diskon',
+        description: 'Dalam proses melakukan approval diskon dilakukan oleh user Manager atau PIC Keuangan',
+        details: [
+                  'Pada halaman utama (home) pilih pending task',
+                  'Cari task lalu klik Form',
+                  'Tampil data pasien',
+                  'Cek kembali data pasien, jika sudah sesuai',
+                  'Kemudian klik Approve',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'prosedur-penginputan-transaksi-setelah-approval-diskon': {
+    id: 'prosedur-penginputan-transaksi-setelah-approval-diskon',
+    menuKey: 'keuangan',
+    submenuId: 'discount',
+    itemTitle: 'Prosedur Penginputan Transaksi Setelah Approval Diskon',
+    steps: [
+      {
+        id: 'prosedur-penginputan-transaksi-setelah-approval-diskon-step-1',
+        number: 1,
+        title: 'Prosedur Penginputan Transaksi Setelah Approval Diskon',
+        description: 'Dalam proses melakukan approval diskon dilakukan oleh user Manager atau PIC Keuangan',
+        details: [
+                  'Pada menu Apps pilih menu Hospital Account',
+                  'Pilih menu billing, klik invoice billing',
+                  'Cari nama pasien, klik select',
+                  'Pilih settle invoice',
+                  'Tampil data pasien',
+                  'Cek kembali data pasien, jika sudah sesuai',
+                  'Klik settle invoice',
+                  'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
     /* heru-25/11/2025 */
 };
