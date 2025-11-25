@@ -4995,4 +4995,188 @@ export const contentData: Record<string, ContentItem> = {
     ]
   },
     /* heru-24/11/2025 */
+
+    /* heru-25/11/2025 */
+    
+        'deposit-transfer': {
+    id: 'deposit-transfer',
+    menuKey: 'keuangan',
+    submenuId: 'deposit',
+    itemTitle: 'Deposit Transfer',
+    steps: [
+      {
+        id: 'deposit-transfer-step-1',
+        number: 1,
+        title: 'Deposit Transfer',
+        description: 'Saat pasien masuk rawat inap ubah collection type cicilan depomil sebelumnya menjadi on account',
+        details: [
+                  'Pada menu Apps pilih menu Hospital Account',
+                  'Pilih menu billing klik deposit transfer',
+                  'Kemudian klik New',
+                  'Cari pasien berdasarkan no MRN atau nama',
+                  'Tampil data pasien, pilih transfer type : On Account',
+                  'Jika sudah klik transfer',
+                  'Maka akan tampil informasi “Deposit transfer saved successfully”',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'prosedur-penerimaan-transaksi-cicilan-depomil-deposit-ibu-hamil': {
+    id: 'prosedur-penerimaan-transaksi-cicilan-depomil-deposit-ibu-hamil',
+    menuKey: 'keuangan',
+    submenuId: 'deposit',
+    itemTitle: 'Prosedur Penerimaan Transaksi Cicilan Depomil (Deposit Ibu Hamil)',
+    steps: [
+      {
+        id: 'prosedur-penerimaan-transaksi-cicilan-depomil-deposit-ibu-hamil-step-1',
+        number: 1,
+        title: 'Prosedur Penerimaan Transaksi Cicilan Depomil (Deposit Ibu Hamil)',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih menu Hospital Account',
+                  'Pilih menu billing klik collection request',
+                  'Kemudian klik New',
+                  'Cari nama pasien berdasarkan nama atau no MRN',
+                  'Tampil data pasien, kemudian klik Add request',
+                  'Pilih collection type : security deposit',
+                  'Isi field amount',
+                  'Klik tombol add',
+                  'Klik ceklis pada kolom cash atau card (disesuaikan)',
+                  'Klik Accept Deposit and Print',
+                  'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'prosedur-penerimaan-transaksi-depomil-di-rawat-inap': {
+    id: 'prosedur-penerimaan-transaksi-depomil-di-rawat-inap',
+    menuKey: 'keuangan',
+    submenuId: 'deposit',
+    itemTitle: 'Prosedur Penerimaan Transaksi Depomil di Rawat Inap',
+    steps: [
+      {
+        id: 'prosedur-penerimaan-transaksi-depomil-di-rawat-inap-step-1',
+        number: 1,
+        title: 'Prosedur Penerimaan Transaksi Depomil di Rawat Inap',
+        description: 'Saat pasien masuk rawat inap ubah collection type cicilan depomil sebelumnya menjadi on account',
+        details: [
+                  'Pada menu Apps pilih menu Hospital Account',
+                  'Pilih menu billing klik deposit transfer',
+                  'Kemudian klik New',
+                  'Cari pasien berdasarkan no MRN atau nama',
+                  'Tampil data pasien, pilih transfer type : On Account',
+                  'Jika sudah klik transfer',
+                  'Maka akan tampil informasi “Deposit transfer saved successfully”',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'prosedur-finance-clearence-di-rawat-jalan': {
+    id: 'prosedur-finance-clearence-di-rawat-jalan',
+    menuKey: 'keuangan',
+    submenuId: 'finance-clearance',
+    itemTitle: 'Prosedur Finance Clearence di Rawat Jalan',
+    steps: [
+      {
+        id: 'prosedur-finance-clearence-di-rawat-jalan-step-1',
+        number: 1,
+        title: 'Prosedur Finance Clearence di Rawat Jalan',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                    'Pada menu Apps pilih menu Hospital Account',
+                    'Pilih menu billing klik finance clearence',
+                    'Cari nama pasien, kemudian klik ceklis pada pasien tersebut',
+                    'Klik save',
+                    'Pilih reason for manual finance clearence',
+                    'Klik save',
+                    'Maka akan tampil informasi “Saved successfully”',
+                    'Klik close',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'prosedur-finance-clearence-di-rawat-inap': {
+    id: 'prosedur-finance-clearence-di-rawat-inap',
+    menuKey: 'keuangan',
+    submenuId: 'finance-clearance',
+    itemTitle: 'Prosedur Finance Clearence di Rawat Inap',
+    steps: [
+      {
+        id: 'prosedur-finance-clearence-di-rawat-inap-step-1',
+        number: 1,
+        title: 'Prosedur Finance Clearence di Rawat Inap',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih menu Hospital Account',
+                  'Pilih menu billing klik finance clearence',
+                  'Cari nama pasien, kemudian klik ceklis pada pasien tersebut',
+                  'Klik save',
+                  'Pilih reason for manual finance clearence',
+                  'Klik save',
+                  'Maka akan tampil informasi “Saved successfully”',
+                  'Klik close',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+    /* heru-25/11/2025 */
 };
