@@ -5289,4 +5289,362 @@ export const contentData: Record<string, ContentItem> = {
     ]
   },
     /* heru-25/11/2025 */
+
+    /* heru-26/11/2025 */
+        'prosedur-refund-karena-pembatalan-transaksi': {
+    id: 'prosedur-refund-karena-pembatalan-transaksi',
+    menuKey: 'keuangan',
+    submenuId: 'refund',
+    itemTitle: 'Prosedur Refund Karena Pembatalan Transaksi',
+    steps: [
+      {
+        id: 'prosedur-refund-karena-pembatalan-transaksi-step-1',
+        number: 1,
+        title: 'Prosedur Refund Karena Pembatalan Transaksi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps, pilih menu Hospital Account',
+                  'Pada sisi bilah kiri, klik menu Billing',
+                  'Pilih invoice billing',
+                  'Cari data pasien (disesuaikan)',
+                  'Klik select',
+                  'Pilih cancel invoice',
+                  'Tampil data pasien sebagai berikut : ',
+                  'Isi keterangan pembatalan (Cancel Remarks) dan pilih alasannya (Reason)',
+                  'Klik Request for cancel approval',
+                  'Tampil notifikasi sebagai berikut :',
+                  'Pilih OK',
+                  'Maka akan tampil informasi “Invoice cancelled successfully”',
+                  'Selanjutnya klik Settings',
+                  'Klik menu Workflow',
+                  'Pilih Pending tasks',
+                  'Klik tab Pending grup tasks',
+                  'Cari task pasien dengan keterangan reason for cancellation pada kolom description',
+                  'Klik edit ',
+                  'Pilih user terkait pada new assignee (disesuaikan)',
+                  'Klik update',
+                  'Klik Home',
+                  'Klik jumlah pada pending tasks',
+                  'Pada halaman personal task akan tampil beberapa task yang harus diselesaikan',
+                  'Selanjutnya klik form',
+                  'Tampil data pasien yang sebelumnya sudah diajukan permintaan untuk persetujuan cancel invoice',
+                  'Cek kembali data tersebut',
+                  'Jika sudah sesuai klik Approve',
+                  'Maka akan tampil informasi “Invoice approve successfully”',
+                  'Kembali ke menu Apps, klik Hospital account',
+                  'Pada sisi bilah kiri, klik menu Billing',
+                  'Pilih Invoice billing',
+                  'Klik New, lalu pilih new',
+                  'Cari pasien berdasarkan no.MRN atau nama ',
+                  'Beri tanda centang pada item yang akan dilakukan unbill (disesuaikan)',
+                  'Selanjutnya klik Unbil items',
+                  'Pilih alasan dilakukannya pembatalan transaksi (Reason for unbilling)',
+                  'Klik OK',
+                  'Maka akan tampil informasi pembatalan transaksi tersebut berhasil dilakukan',
+                  'Selanjutnya akan tampil data penerimaan penyesuaian pada kolom Adjust Receipt ',
+                  'Beri tanda centang pada data adjust receipt tersebut',
+                  'Kemudian akan tampil nilai penyesuaian pada kolom adjusting amount',
+                  'Klik Save and send for approval',
+                  'Maka akan tampil informasi “Invoice saved successfully” ',
+                  'Pada sisi bilah kiri, klik menu Billing',
+                  'Pilih Refund request list',
+                  'Klik New',
+                  'Cari pasien berdasarkan no.MRN atau nama',
+                  'Maka akan tampil data refund request pasien',
+                  'Pilih Refund mode : Cash',
+                  'Isi Remarks (disesuaikan)',
+                  'Klik Create',
+                  'Maka akan tampil informasi "Refund request saved successfully”',
+                  'Pada sisi bilah kiri klik menu Billing',
+                  'Pilih Refund',
+                  'Klik New',
+                  'Cari pasien berdasarkan no.MRN atau nama',
+                  'Tampil data Refund pasien',
+                  'Kemudian isi kolom Remarks',
+                  'Klik Refund',
+                  'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'prosedur-refund-karena-pengembalian-kelebihan-deposit': {
+    id: 'prosedur-refund-karena-pengembalian-kelebihan-deposit',
+    menuKey: 'keuangan',
+    submenuId: 'refund',
+    itemTitle: 'Prosedur Refund Karena Pengembalian Kelebihan Deposit',
+    steps: [
+      {
+        id: 'prosedur-refund-karena-pengembalian-kelebihan-deposit-step-1',
+        number: 1,
+        title: 'Prosedur Refund Karena Pengembalian Kelebihan Deposit',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih menu Hospital Account',
+                  'Pilih menu billing klik invoice billing',
+                  'Klik New, pilih new kembali',
+                  'Cari nama pasien berdasarkan nama atau no MRN',
+                  'Klik ceklis pada item di bagian adjust receipt',
+                  'Klik save and send for approval',
+                  'Maka akan tampil informasi “Invoice saved successfully”',
+                  'Maka akan tampil laporan sebagai berikut :',
+                  'Klik menu billing pada sisi bilah kiri',
+                  'Pilih refund request list',
+                  'Lalu klik new',
+                  'Cari nama pasien, kemudian pilih remarks',
+                  'Klik tombol create',
+                  'Maka akan tampil informasi “Refund request saved successfully”',
+                  'Kemudian klik Billing pilih refunds',
+                  'Lalu klik new',
+                  'Cari nama pasien tersebut, lalu isi remarks',
+                  'Klik refund',
+                  'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'proses-refund-dengan-tunai': {
+    id: 'proses-refund-dengan-tunai',
+    menuKey: 'keuangan',
+    submenuId: 'refund',
+    itemTitle: 'Proses Refund Dengan Tunai',
+    steps: [
+      {
+        id: 'proses-refund-dengan-tunai-step-1',
+        number: 1,
+        title: 'Proses Refund Dengan Tunai',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps, pilih menu Hospital Account ',
+                  'Pada sisi bilah kiri klik menu Billing',
+                  'Pilih Refund request list',
+                  'Klik New',
+                  'Cari pasien berdasarkan no.MRN atau nama',
+                  'Tampil data refund request pasien ',
+                  'Cek data pasien apakah sudah sesuai',
+                  'Refund mode pilih Cash',
+                  'Lengkapi kolom remarks dengan memilih pilihan yang tersedia (disesuaikan)',
+                  'Jika sudah sesuai datanya klik Create ',
+                  'Maka akan tampil informasi “Refund request saved successfully”',
+                  'Selanjutnya, pada sisi bilah kiri klik menu Billing',
+                  'Pilih Refund',
+                  'Klik New ',
+                  'Cari pasien berdasarkan no.MRN atau nama',
+                  'Tampil data pasien',
+                  'Kemudian isi kolom Remarks',
+                  'Jika data refund pasien sudah sesuai dan kolom remarks sudah dilengkapi',
+                  'Klik Refund',
+                  'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'proses-refund-dengan-transfer-bank': {
+    id: 'proses-refund-dengan-transfer-bank',
+    menuKey: 'keuangan',
+    submenuId: 'refund',
+    itemTitle: 'Proses Refund Dengan Transfer Bank',
+    steps: [
+      {
+        id: 'proses-refund-dengan-transfer-bank-step-1',
+        number: 1,
+        title: 'Proses Refund Dengan Transfer Bank',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih menu Hospital Account',
+                  'Klik menu billing pada sisi bilah kiri',
+                  'Pilih refund request list',
+                  'Lalu klik new',
+                  'Cari nama pasien',
+                  'Isi field-field pada bagian refund request sebagai berikut :',
+                  'Pilih refund mode : Bank ',
+                  'Pilih payment terms : Bank Transfer',
+                  'Isi account no ( Account no adalah no. rekening  penerima atau pasien )',
+                  'Pilih remarks ( Remarks adalah alasan refund sesuai dengan alasan pengembalian )',
+                  'Isi nama ( Nama diisi dengan nama penerima sesuai dengan no. rekening penerima refund )',
+                  'Pada bagian Card Equipment  TIDAK BOLEH DIISI',
+                  'Isi vendor bank name ( Vendor bank name adalah nama bank penerima pasien atau penerima refund )',
+                  'Klik create',
+                  'Maka akan tampil informasi “Refund request saved successfully”',
+                  'Lalu klik print',
+                  'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'penerimaan-transaksi-pembelian-obat-tanpa-resep-obat-bebas': {
+    id: 'penerimaan-transaksi-pembelian-obat-tanpa-resep-obat-bebas',
+    menuKey: 'keuangan',
+    submenuId: 'transaksi-lainnya',
+    itemTitle: 'Penerimaan Transaksi Pembelian Obat Tanpa Resep (Obat Bebas)',
+    steps: [
+      {
+        id: 'penerimaan-transaksi-pembelian-obat-tanpa-resep-obat-bebas-step-1',
+        number: 1,
+        title: 'Penerimaan Transaksi Pembelian Obat Tanpa Resep (Obat Bebas)',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih menu Hospital Account',
+                  'Pilih menu billing klik Invoice billing',
+                  'Klik New, lalu pilih new kembali',
+                  'Cari nama pasien berdasarkan no MRN atau nama',
+                  'Isi field payor name',
+                  'Klik save and send for approval',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'penerimaan-transaksi-pembayaran-seminar-pasien-eksternal': {
+    id: 'penerimaan-transaksi-pembayaran-seminar-pasien-eksternal',
+    menuKey: 'keuangan',
+    submenuId: 'transaksi-lainnya',
+    itemTitle: 'Penerimaan Transaksi Pembayaran Seminar (Pasien Eksternal)',
+    steps: [
+      {
+        id: 'penerimaan-transaksi-pembayaran-seminar-pasien-eksternal-step-1',
+        number: 1,
+        title: 'Penerimaan Transaksi Pembayaran Seminar (Pasien Eksternal)',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih menu Hospital Account',
+                  'Pilih menu billing klik Invoice Billing',
+                  'Klik new, lalu pilih New kembali',
+                  'Klik ceklis pada external patient',
+                  'Lengkapi data pasien lalu klik update',
+                  'Maka data pasien telah tersimpan',
+                  'Lalu klik Add service package',
+                  'Lengkapi form service yaitu sebagai berikut :',
+                  'Pilih departement ',
+                  'Ceklis is referral consultant',
+                  'Pilih referral consultant lalu ketik "Self"',
+                  'Pilih service',
+                  'Isi tarif',
+                  'Klik Add service',
+                  'Isi field payor name',
+                  'Pilih payment details',
+                  'Isi collected cash amount',
+                  'Klik save and send for approve ',
+                  'Maka data telah tersimpan',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'prosedur-penerimaan-transaksi-klinik-tumbuh-kembang-paket': {
+    id: 'prosedur-penerimaan-transaksi-klinik-tumbuh-kembang-paket',
+    menuKey: 'keuangan',
+    submenuId: 'transaksi-lainnya',
+    itemTitle: 'Prosedur Penerimaan Transaksi Klinik Tumbuh Kembang Paket',
+    steps: [
+      {
+        id: 'prosedur-penerimaan-transaksi-klinik-tumbuh-kembang-paket-step-1',
+        number: 1,
+        title: 'Prosedur Penerimaan Transaksi Klinik Tumbuh Kembang Paket',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps pilih menu Hospital Account',
+                  'Pilih menu billing klik invoice billing',
+                  'Klik New, pilih new kembali',
+                  'Cari nama pasien berdasarkan no MRN atau nama',
+                  'Lalu klik ikon (P) pada bagian Package',
+                  'Klik print jika ingin mencetak ',
+                  'Jika tidak klik close',
+                  'Lalu klik add service package',
+                  'Lengkapi form service yaitu sebagai berikut :',
+                  'Pilih service',
+                  'Klik Add service',
+                  'Klik save and send for approval',
+                  'Maka akan tampil laporan sebagai berikut :',
+                  'Maka akan tampil informasi “Invoiced saved successfully”',
+                  'Klik view all',
+                  'Klik tombol new, pilih new',
+                  'Cari nama pasien tersebut',
+                  'Lalu klik ikon (P) pada bagian Package',
+                  'Maka akan tampil data package details',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+    /* heru-26/11/2025 */
 };
