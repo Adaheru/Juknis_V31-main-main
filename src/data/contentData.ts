@@ -5647,4 +5647,223 @@ export const contentData: Record<string, ContentItem> = {
     ]
   },
     /* heru-26/11/2025 */
+
+    /* heru-27/11/2025 */
+        'laporan-tunai-dan-card-tanpa-detail': {
+    id: 'laporan-tunai-dan-card-tanpa-detail',
+    menuKey: 'keuangan',
+    submenuId: 'laporan',
+    itemTitle: 'Laporan Tunai dan Card Tanpa Detail',
+    steps: [
+      {
+        id: 'laporan-tunai-dan-card-tanpa-detail-step-1',
+        number: 1,
+        title: 'Laporan Tunai dan Card Tanpa Detail',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu halaman utama klik Reports',
+                  'Pilih menu Billing',
+                  'Klik counter wise collection reports',
+                  'Pilih tanggal',
+                  'Isi field user',
+                  'Klik report dalam bentuk pdf',
+                  'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'laporan-pendapatan-asuransi': {
+    id: 'laporan-pendapatan-asuransi',
+    menuKey: 'keuangan',
+    submenuId: 'laporan',
+    itemTitle: 'Laporan Pendapatan Asuransi',
+    steps: [
+      {
+        id: 'laporan-pendapatan-asuransi-step-1',
+        number: 1,
+        title: 'Laporan Pendapatan Asuransi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu halaman utama klik Reports',
+                  'Pilih menu Billing',
+                  'Klik sponsor invoice statement',
+                  'Pilih tanggal',
+                  'Klik ikon report dalam bentuk ms.excel, html, pdf atau klik view report',
+                  'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'laporan-transaksi-detail': {
+    id: 'laporan-transaksi-detail',
+    menuKey: 'keuangan',
+    submenuId: 'laporan',
+    itemTitle: 'Laporan Transaksi Detail',
+    steps: [
+      {
+        id: 'laporan-transaksi-detail-step-1',
+        number: 1,
+        title: 'Laporan Transaksi Detail',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu halaman utama klik Reports',
+                  'Pilih menu Billing',
+                  'Pilih menu MIS',
+                  'Klik collection Details',
+                  'Pilih tanggal (From date - To Date)',
+                  'Klik ikon ms.Excel',
+                  'Maka akan tampil laporan sebagai berikut :',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'laporan-rekap-pembatalan-transaksi': {
+    id: 'laporan-rekap-pembatalan-transaksi',
+    menuKey: 'keuangan',
+    submenuId: 'laporan',
+    itemTitle: 'Laporan Rekap Pembatalan Transaksi',
+    steps: [
+      {
+        id: 'laporan-rekap-pembatalan-transaksi-step-1',
+        number: 1,
+        title: 'Laporan Rekap Pembatalan Transaksi',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada menu Apps, pilih Hospital account',
+                  'Pilih menu Billing, klik invoice billing',
+                  'Pilih tab Credit memo',
+                  'Klik search',
+                  'Lakukan pencarian berdasarkan kriteria',
+                  'search kriteria : Invoice date -> Less than or equal to -> pilih tanggal',
+                  'Klik search',
+                  'Lalu klik Excel',
+                  'Lalu akan tampil laporan sebagai berikut :',
+                  'Lakukan filter data (disesuaikan)',
+                  'Untuk melihat alasan pembatalan transaksi ada di kolom Reason for cancellation',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+        'report-recap-card-seluruh-user': {
+    id: 'report-recap-card-seluruh-user',
+    menuKey: 'keuangan',
+    submenuId: 'laporan',
+    itemTitle: 'Report Recap Card Seluruh User',
+    steps: [
+      {
+        id: 'report-recap-card-seluruh-user-step-1',
+        number: 1,
+        title: 'Report Recap Card Seluruh User',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada halaman utama pilih menu Reports',
+                  'Pilih menu Billing pada sisi bilah kiri',
+                  'Klik menu reports',
+                  'Pilih Recap report user wise',
+                  'Pilih tanggal disesuaikan (from date - to date)',
+                  'Pilih Branch',
+                  'Pada kolom user tidak perlu diisi (karena untuk menampilkan laporan seluruh user)',
+                  'Klik view report',
+                  'Maka akan tampil laporan sebagai berikut:',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+
+          'report-recap-card-per-user': {
+    id: 'report-recap-card-per-user',
+    menuKey: 'keuangan',
+    submenuId: 'laporan',
+    itemTitle: 'Report Recap Card Per User',
+    steps: [
+      {
+        id: 'report-recap-card-per-user-step-1',
+        number: 1,
+        title: 'Report Recap Card Per User',
+        description: 'Buka aplikasi dan pilih menu Apps',
+        details: [
+                  'Pada halaman utama pilih menu Reports',
+                  'Pilih menu Billing pada sisi bilah kiri',
+                  'Klik menu reports',
+                  'Pilih Recap report user wise',
+                  'Pilih tanggal disesuaikan (from date - to date)',
+                  'Pilih Branch',
+                  'Pilih user (disesuaikan)',
+                  'Klik view report',
+                  'Maka akan tampil laporan sebagai berikut:',
+         {
+            type: 'image',
+            title: 'Contoh Gambar',
+            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+          },
+
+          {
+            type: 'video',
+            title: 'Lihat Video Tutorial',
+            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+          }
+        ],
+      }
+    ]
+  },
+    /* heru-27/11/2025 */
 };
