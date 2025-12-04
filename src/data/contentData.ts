@@ -917,8 +917,15 @@ export const contentData: Record<string, ContentItem> = {
         description: 'Buka aplikasi dan pilih menu Apps',
         details: [
           'Pada menu Apps, pilih ambulatory care',
+          {
+            type: 'image',
+            title: 'Ambulatory Care',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Penerimaan Pasien Di Nurse Station Rawat Jalan/1.png'
+          },
           'Lalu pilih menu Bay management, klik View patients',
+
           'Masuk ke halaman Patient List, kemudian lakukan pencarian pasien berdasarkan search criteria yaitu dengan cara pilih departement, visit date, unit dan consultant ',
+          
           'Setelah itu klik tombol search atau dapat juga mencari pasien berdasarkan no. MRN',
           'Jika sudah menemukan pasien tersebut,  lalu klik select, pilih Mark as Arrived',
           'Kemudian akan muncul informasi “Patient Marked As Arrived”',
