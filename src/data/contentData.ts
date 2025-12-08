@@ -1030,38 +1030,81 @@ export const contentData: Record<string, ContentItem> = {
         description: 'Buka aplikasi dan pilih menu Apps',
         details: [
           'Pada menu Apps, pilih ambulatory care',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/1.png'
+          },
           'Lalu pilih menu Bay management, klik View patients',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/2.png'
+          },
           'Masuk ke halaman Patient List, kemudian lakukan pencarian pasien berdasarkan search criteria yaitu dengan cara pilih departement, visit date, unit dan consultant',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/3.png'
+          },
           'Setelah itu klik tombol search atau dapat juga mencari pasien berdasarkan no. MRN',
           'Jika sudah menemukan pasien tersebut, kemudian klik ikon berwarna kuning untuk OnCall dokter',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/4.png'
+          },
           'Kemudian akan muncul informasi “Patient is Called for consultation”',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/6.png'
+          },
           'Setelah itu klik select, pilih patient Chart ',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/7.png'
+          },
           'Pilih menu Orders, lalu klik tombol tambah ( + ) ',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/8.png'
+          },
           'Lalu pilih consultant pada form select encounter',
+                    {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/9.png'
+          },
           'Setelah itu tampil form isian notes perawat, Isi kolom title dan notes',
           {type : 'text', content : '1. Masuk ke halaman Add orders, pastikan nama dokter yang tercantum di kolom nama dokter pada kotak sudut kanan atas sesuai', level: 2 },
           {type : 'text', content : '2. Isi kata kunci pada kolom pencarian', level: 2 },
           {type : 'text', content : '3. Kemudian beri tanda centang pada item yang ingin dipilih', level: 2 },
-          'Kemudian cek kembali untuk item order yang sudah dipilih, ',
-          'Pastikan prefered service center seesuai dengan spesialisasi ',
-          'Jika sudah sesuai lalu klik tombol save ',
-          'Kemudian akan muncul informasi “Service Order saved successfully” ',
-          'Setelah itu klik Back to Patient List',
-          {
+                    {
             type: 'image',
-            title: 'Contoh Gambar',
-            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/10.png'
           },
-
+          'Kemudian cek kembali untuk item order yang sudah dipilih, ',
+          'Pastikan prefered service center sesuai dengan spesialisasi ',
+          'Jika sudah sesuai lalu klik tombol save ',
+                    {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/11.png'
+          },
+          'Kemudian akan muncul informasi “Service Order saved successfully” ',
+                    {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/12.png'
+          },
+          'Setelah itu klik Back to Patient List',
+                    {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/13.png'
+          },
           {
             type: 'video',
             title: 'Lihat Video Tutorial',
-            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/Prosedur Asisten Dokter di Kamar Praktek Dokter.mp4'
           }
         ],
       }
     ]
  },
+ /*heru-8/12/2025*/
 
   'prosedur-penerimaan-pasien-baru': {
     id: 'prosedur-penerimaan-pasien-baru',
