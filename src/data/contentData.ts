@@ -1106,6 +1106,7 @@ export const contentData: Record<string, ContentItem> = {
  },
  /*heru-8/12/2025*/
 
+ /*heru-9/12/2025*/
   'prosedur-penerimaan-pasien-baru': {
     id: 'prosedur-penerimaan-pasien-baru',
     menuKey: 'perawat',
@@ -1119,44 +1120,132 @@ export const contentData: Record<string, ContentItem> = {
         description: 'Buka aplikasi dan pilih menu Apps',
         details: [
             'Pada menu Apps, pilih menu Inpatients',
-            'Masuk ke halaman inpatient, Pilih Nursing Work Bench',
-            'Masuk ke halaman Nursing work bench, kemudian klik search',
-            'Setelah itu cari pasien berdasarkan search criteria, pada patient status pilih Billing cleared',
-            'Lalu klik tombol search',
-            'Setelah pasien ditemukan kemudian klik Administrative, pilih Receive patient',
-            'Muncul form data pasien, isi remarks bila ada keterangan setelah itu klik tombol save',
-            'Lalu akan muncul informasi “Patient reported successfully”',
-            'Kembali ke halaman list patient, setelah itu lakukan kembali pencarian berdasarkan status pasien (patient status)',
-            'Pilih Under IP  lalu klik tombol search',
-            'Setelah pasien ditemukan lalu klik Clinical, pilih patient chart',
-            'Masuk ke halaman entry perawat, setelah itu klik keperawatan pada menu CPPT untuk membuat clinical notes',
-            'Setelah itu tampil form isian note perawat, Isi kolom title dan note',
-            'Jika sudah klik tombol Save dan publish',
-            'Kemudian muncul notifikasi, klik tombol processed',
-            'Setelah itu akan muncul informasi “Clinical notes saved successfully”',
-            'Berikut tampilan Clinical notes keperawatan yang sudah disave',
-            'Selanjutnya pilih menu Vitals, lalu klik ikon tambah  ( + )  ',
-            'Lengkapi informasi pada form Vital, setelah itu klik tombol save',
-            'Berikut tampilan Vitalls keperawatan yang sudah disave',
-            'Selanjutnya pilih menu Allergies, lalu klik ikon tambah  ( + ) ',
-            'Lengkapi informasi pada form alergi jika sudah klik tombol save',
-            'Setelah itu klik Keperawatan pada menu CPPT',
-            'Lengkapi informasi note keperawatan dengan mengisi title dan note',
-            'Jika sudah klik Save dan Publish',
-            'Kemudian muncul notifikasi, klik tombol processed',
-            'Setelah itu akan muncul informasi “Clinical note saved successfully”',
-            'Berikut tampilan Clinical notes keperawatan yang sudah disave',
-            'Setelah itu klik Back to patient list',
           {
             type: 'image',
-            title: 'Contoh Gambar',
-            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/1.png'
+          },
+            'Masuk ke halaman inpatient, Pilih Nursing Work Bench',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/2.png'
+          },
+            'Masuk ke halaman Nursing work bench, kemudian klik search',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/3.png'
+          },
+            'Setelah itu cari pasien berdasarkan search criteria, pada patient status pilih Billing cleared',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/5.png'
+          },
+            'Lalu klik tombol search',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/4.png'
+          },
+            'Setelah pasien ditemukan kemudian klik Administrative, pilih Receive patient',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/6.png'
+          },
+            'Muncul form data pasien, isi remarks bila ada keterangan setelah itu klik tombol save',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/7.png'
+          },
+            'Lalu akan muncul informasi “Patient reported successfully”',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/8.png'
+          },
+            'Kembali ke halaman list patient, setelah itu lakukan kembali pencarian berdasarkan status pasien (patient status)',
+            'Pilih Under IP  lalu klik tombol search',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/9.png'
+          },
+            'Setelah pasien ditemukan lalu klik Clinical, pilih patient chart',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/10.png'
+          },
+            'Masuk ke halaman entry perawat, setelah itu klik keperawatan pada menu CPPT untuk membuat clinical notes',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/11.png'
+          },
+            'Setelah itu tampil form isian note perawat, Isi kolom title dan note',
+            'Jika sudah klik tombol Save dan publish',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/12.png'
+          },
+            'Kemudian muncul notifikasi, klik tombol proceed',
+            'Setelah itu akan muncul informasi “Clinical notes saved successfully”',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/13.png'
+          },
+            'Berikut tampilan Clinical notes keperawatan yang sudah disave',
+                        {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/14.png'
+          },
+            'Selanjutnya pilih menu Vitals, lalu klik ikon tambah  ( + )  ',
+                        {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/15.png'
+          },
+            'Lengkapi informasi pada form Vital, setelah itu klik tombol save',
+                        {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/16.png'
+          },
+            'Berikut tampilan Vitalls keperawatan yang sudah disave',
+                        {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/17.png'
+          },
+            'Selanjutnya pilih menu Allergies, lalu klik ikon tambah  ( + ) ',
+                        {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/17.png'
+          },
+            'Lengkapi informasi pada form alergi jika sudah klik tombol save',
+                        {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/18.png'
+          },
+            'Setelah itu klik Keperawatan pada menu CPPT',
+                        {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/19.png'
+          },
+            'Lengkapi informasi note keperawatan dengan mengisi title dan note',
+            'Jika sudah klik Save dan Publish',
+                     {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/20.png'
           },
 
+            'Kemudian muncul notifikasi, klik tombol proceed',
+                     {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/21.png'
+          },
+            'Setelah itu akan muncul informasi “Clinical note saved successfully”',
+            'Berikut tampilan Clinical notes keperawatan yang sudah disave',
+                     {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/22.png'
+          },
+
+            'Setelah itu klik Back to patient list',
           {
             type: 'video',
             title: 'Lihat Video Tutorial',
-            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/Prosedur Penerimaan Pasien Baru.mp4'
           }
         ],
       }
