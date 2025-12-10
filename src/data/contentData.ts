@@ -902,7 +902,7 @@ export const contentData: Record<string, ContentItem> = {
   /* Maul-17/11/2025 */
 
 
-  /* heru-17/11/2025 & heru-8/12/2025*/
+  /* heru-17/11/2025 & heru-10/12/2025*/
 
   'prosedur-penerimaan-pasien-di-nurse-station-rawat-jalan': {
     id: 'prosedur-penerimaan-pasien-di-nurse-station-rawat-jalan',
@@ -1008,7 +1008,7 @@ export const contentData: Record<string, ContentItem> = {
           {
             type: 'video',
             title: 'Lihat Video Tutorial',
-            content: '/images/perawat/perawat-rawat-jalan/Prosedur Penerimaan Pasien Di Nurse Station Rawat Jalan/Penerimaan Pasien Di Nurse Station Rawat Jalan.mp4'
+            content: 'https://drive.google.com/file/d/1nRnCO4qhj1QUrXKNB_VABj4zz1SJOw56/view?usp=drive_link'
           }
         ],
       }
@@ -1098,15 +1098,14 @@ export const contentData: Record<string, ContentItem> = {
           {
             type: 'video',
             title: 'Lihat Video Tutorial',
-            content: '/images/perawat/perawat-rawat-jalan/Prosedur Asisten Dokter di Kamar Praktek Dokter/Prosedur Asisten Dokter di Kamar Praktek Dokter.mp4'
+            content: 'https://drive.google.com/file/d/1dnikGtrHIxAd9-gA6KmfPl8btuqGgU1M/view?usp=drive_link'
           }
         ],
       }
     ]
  },
- /*heru-8/12/2025*/
 
- /*heru-9/12/2025*/
+
   'prosedur-penerimaan-pasien-baru': {
     id: 'prosedur-penerimaan-pasien-baru',
     menuKey: 'perawat',
@@ -1245,7 +1244,7 @@ export const contentData: Record<string, ContentItem> = {
           {
             type: 'video',
             title: 'Lihat Video Tutorial',
-            content: '/images/perawat/perawat-rawat-inap/Prosedur Penerimaan Pasien Baru/Prosedur Penerimaan Pasien Baru.mp4'
+            content: 'https://drive.google.com/file/d/1_HzCbMa8jT2Gx2HU67XXbFiw8O8fu28A/view?usp=drive_link'
           }
         ],
       }
@@ -1265,27 +1264,57 @@ export const contentData: Record<string, ContentItem> = {
         description: 'Buka aplikasi dan pilih menu Apps',
         details: [
             'Pada menu Apps, pilih menu Inpatients ',
-            'Masuk ke halaman inpatient, Pilih Nursing Work Bench',
-            'Cari pasien setelah itu klik Clinical, pilih Patient Chart',
-            'Masuk ke halaman entry perawat, setelah itu klik Keperawatan pada menu CPPT',
-            'Lengkapi informasi note keperawatan dengan mengisi title dan note',
-            'Jika sudah klik Save dan Publish',
-            'Muncul notifikasi publish options, klik tombol processed',
-            'Tampil informasi “Clinical note saved successfully”',
-            'Setelah itu pilih menu Vitals, lalu klik ikon tambah  ( + ) ',
-            'Lengkapi informasi pada form Vital, setelah itu klik tombol save',
-            'Tampil informasi “Vitals saved successfully”',
-            'Kembali ke halaman entry perawat, cek kembali data pasien jika sudah klik Back to patient list',
           {
             type: 'image',
-            title: 'Contoh Gambar',
-            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+            content: '/images/perawat/perawat-rawat-inap/Serah Terima Antar Shift/1.png'
           },
-
+            'Masuk ke halaman inpatient, Pilih Nursing Work Bench',
+                      {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Serah Terima Antar Shift/2.png'
+          },
+            'Cari pasien setelah itu klik Clinical, pilih Patient Chart',
+                      {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Serah Terima Antar Shift/3.png'
+          },
+            'Masuk ke halaman entry perawat, setelah itu klik Keperawatan pada menu CPPT',
+                      {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Serah Terima Antar Shift/4.png'
+          },
+            'Lengkapi informasi note keperawatan dengan mengisi title dan note',
+            'Jika sudah klik Save dan Publish',
+                      {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Serah Terima Antar Shift/5.png'
+          },
+            'Muncul notifikasi publish options, klik tombol proceed',
+            'Tampil informasi “Clinical note saved successfully”',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Serah Terima Antar Shift/6.png'
+          },
+            'Setelah itu pilih menu Vitals, lalu klik ikon tambah  ( + ) ',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Serah Terima Antar Shift/7.png'
+          },
+            'Lengkapi informasi pada form Vital, setelah itu klik tombol save',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Serah Terima Antar Shift/8.png'
+          },
+            'Tampil informasi “Vitals saved successfully”',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Serah Terima Antar Shift/9.png'
+          },
+            'Kembali ke halaman entry perawat, cek kembali data pasien jika sudah klik Back to patient list',
           {
             type: 'video',
             title: 'Lihat Video Tutorial',
-            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+            content: 'https://drive.google.com/file/d/1hIRlU2JqgDfj_NIAYaEoRVj5V91dH5CK/view?usp=drive_link'
           }
         ],
       }
@@ -1305,45 +1334,114 @@ export const contentData: Record<string, ContentItem> = {
         description: 'Buka aplikasi dan pilih menu Apps',
         details: [
             'Pada halaman utama pilih tab inpatient',
+                      {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Mendampingi Dokter Visit/1.png'
+          },
             'Pilih pasien, klik view EHR',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Mendampingi Dokter Visit/2.png'
+          },
             'Pilih widget clinical notes, klik icon tambah (+)',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Mendampingi Dokter Visit/3.png'
+          },
             'Lengkapi form add note, isi title dan note',
             'Klik save & publish',
-            'Lalu klik processed',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Mendampingi Dokter Visit/4.png'
+          },
+            'Lalu klik proceed',
+{
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Mendampingi Dokter Visit/5.png'
+          },
             'Maka akan tampil notifikasi “Clinical note saved successfully”',
+{
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Mendampingi Dokter Visit/6.png'
+          },
             'Pilih widget orders, klik icon tambah (+)',
+{
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Mendampingi Dokter Visit/7.png'
+          },
             'Cari nama order di kolom search',
             'Kemudian akan tampil daftar order sesuai kata pencarian, beri tanda centang item order yang dipilih',
             'Pastikan nama dokter yang tercantum di kolom nama dokter pada kotak sudut kanan atas sesuai',
             'Pastikan service center untuk order yang dimaksud sesuai dengan lokasi yang dituju',
+{
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Mendampingi Dokter Visit/8.png'
+          },
             'Klik save',
+{
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Mendampingi Dokter Visit/9.png'
+          },
             'Maka akan tampil notifikasi “Service order saved successfully”',
+{
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Mendampingi Dokter Visit/10.png'
+          },
             'Pilih widget medications, klik icon tambah (+)',
+{
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Mendampingi Dokter Visit/11.png'
+          },
             'Pilih store, lalu klik prescription ',
+{
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Mendampingi Dokter Visit/12.png'
+          },
             'Cari nama order di kolom search',
             'Kemudian akan tampil daftar order sesuai kata pencarian',
             'Beri tanda centang item order yang dipilih',
+{
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Mendampingi Dokter Visit/13.png'
+          },
             'Setelah itu klik add instructions',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Mendampingi Dokter Visit/14.png'
+          },
             'Lengkapi form instructions, lalu klik select',
+{
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Mendampingi Dokter Visit/15.png'
+          },
             'Jika sudah klik add drugs',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Mendampingi Dokter Visit/16.png'
+          },
             'Maka akan tampil data item yang sudah diorder',
             'Klik save',
-            'Lalu akan tampil notifikasi “Drug order saved”',
-          {
+            {
             type: 'image',
-            title: 'Contoh Gambar',
-            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Mendampingi Dokter Visit/17.png'
+          },
+            'Lalu akan tampil notifikasi “Drug order saved”',
+{
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Mendampingi Dokter Visit/18.png'
           },
 
           {
             type: 'video',
             title: 'Lihat Video Tutorial',
-            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+            content: 'https://drive.google.com/file/d/1cBCuVNbZ884ZWXvbGPo_Q0fQvHqoN9xg/view?usp=drive_link'
           }
         ],
       }
     ]
   },
+
+/*heru-10/12/2025*/
 
    'proses-pengosongan-kamar': {
     id: 'proses-pengosongan-kamar',
