@@ -1443,6 +1443,8 @@ export const contentData: Record<string, ContentItem> = {
 
 /*heru-10/12/2025*/
 
+/*heru-11/12/2025*/
+
    'proses-pengosongan-kamar': {
     id: 'proses-pengosongan-kamar',
     menuKey: 'perawat',
@@ -1456,19 +1458,29 @@ export const contentData: Record<string, ContentItem> = {
         description: 'Tujuan : Penyelesaian proses pemulangan sehingga kamar yang selesai digunakan di ruang perawatan dapat dilihat sebagai kamar available oleh admisi rawat inap',
         details: [
             'Pada halaman home klik pending tasks',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Pengosongan Kamar/1.png'
+          },
             'Kemudian klik form',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Pengosongan Kamar/2.png'
+          },
             'Klik tombol discharge',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Pengosongan Kamar/3.png'
+          },
             'Maka akan tampil informasi “Record saved successfully”',
           {
             type: 'image',
-            title: 'Contoh Gambar',
-            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
-          },
-
+            content: '/images/perawat/perawat-rawat-inap/Proses Pengosongan Kamar/4.png'
+          },            
           {
             type: 'video',
             title: 'Lihat Video Tutorial',
-            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+            content: 'https://drive.google.com/file/d/1V3Xt2kBV4-3ki1CJJ6W9iYk2YJbjt9Ly/view?usp=drive_link'
           }
         ],
       }
@@ -1488,30 +1500,68 @@ export const contentData: Record<string, ContentItem> = {
         description: 'Tujuan : Apabila pasien yang sudah siap dipulangkan namun ada item service yang belum terinput dan proses pembayaran belum sampai ke kasir',
         details: [
             'Pada menu Apps pilih Inpatients',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Unmark For Discharge/1.png'
+          },
             'Pilih nursing work bench',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Unmark For Discharge/2.png'
+          },
             'Lalu klik search',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Unmark For Discharge/3.png'
+          },
             'Lakukan pencarian berdasarkan search criteria',
-            'Pada patien status pilih Marked for discharge',
+            'Pada patient status pilih Marked for discharge',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Unmark For Discharge/4.png'
+          },
             'Klik search',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Unmark For Discharge/5.png'
+          },
             'Cari nama pasien, klik clinical',
-            'Pilih unmarked for discharge',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Unmark For Discharge/6.png'
+          },
+            'Pilih Unmarked for Discharge',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Unmark For Discharge/7.png'
+          },            
             'Pilih reason, lalu klik yes',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Unmark For Discharge/8.png'
+          },            
             'Maka akan tampil informasi bahwa pasien tersebut berhasil di un-marked for discharge ',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Unmark For Discharge/9.png'
+          },
             'Kemudian untuk memastikan kembali apakah pasien tersebut berhasil di unmarked for discharge',
             'Yaitu search berdasarkan criteria. Pada patient status pilih under IP care',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Unmark For Discharge/10.png'
+          },
             'Klik search',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Unmark For Discharge/11.png'
+          },
             'Dan pasien tersebut berhasil di unmarked for discharge',
             'Selanjutnya dapat dilakukannya dengan menginput order yang tertinggal atau melakukan validasi service order processor oleh perawat terkait',
           {
-            type: 'image',
-            title: 'Contoh Gambar',
-            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
-          },
-
-          {
             type: 'video',
             title: 'Lihat Video Tutorial',
-            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+            content: 'https://drive.google.com/file/d/1P-jtF0hd62DFSQnSooRb8gE6p7bg23z-/view?usp=drive_link'
           }
         ],
       }
