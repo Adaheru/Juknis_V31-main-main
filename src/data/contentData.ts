@@ -1567,6 +1567,9 @@ export const contentData: Record<string, ContentItem> = {
       }
     ]
   },
+/*heru-11/12/2025*/
+
+/*heru-16/12/2025*/
 
     'prosedur-pemulangan-pasien': {
     id: 'prosedur-pemulangan-pasien',
@@ -1581,34 +1584,109 @@ export const contentData: Record<string, ContentItem> = {
         description: 'Buka aplikasi dan pilih menu Apps',
         details: [
             'Pada menu Apps, pilih menu Inpatients',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Pemulangan Pasien/1.png'
+          },            
             'Masuk ke halaman inpatient, Pilih Nursing Work Bench',
-            'Masuk ke halaman Nursing work bench, kemudian cari nama pasien ',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Pemulangan Pasien/2.png'
+          },
+            'Masuk ke halaman Nursing work bench, kemudian cari pasien yang dikehendaki',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Pemulangan Pasien/3.png'
+          },
             'Setelah itu klik Clinical, pilih Patient Chart',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Pemulangan Pasien/4.png'
+          },
             'Masuk ke halaman entry perawat, setelah itu klik Request',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Pemulangan Pasien/5.png'
+          },
             'Kemudian cari service Order Processor',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Pemulangan Pasien/6.png'
+          },
             'Masuk ke halaman service order processor, cari nama pasien',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Pemulangan Pasien/7.png'
+          },
             'Setelah itu klik tanda centang pada kolom process, ',
             'Kemudian klik save',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Pemulangan Pasien/8.png'
+          },
             'Kemudian muncul form, pilih select employee dan departement',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Pemulangan Pasien/9.png'
+          },
             'Setelah itu klik tombol tambah, lalu klik tombol OK',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Pemulangan Pasien/10.png'
+          }, 
+                    {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Pemulangan Pasien/11.png'
+          },           
             'Muncul informasi “Orders are processed successfully” ',
-            'Kembali ke halaman service order processor, lalu cari nama pasien ',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Pemulangan Pasien/12.png'
+          },
+            'Klik "Back" Kembali ke halaman Nursing Work Bench, lalu cari nama pasien ',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Pemulangan Pasien/13.png'
+          },
             'Klik Clinical, pilih Marked for discharge',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Pemulangan Pasien/14.png'
+          },            
             'Muncul form mark for discharge, kemudian pilih discharge type dan unit',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Pemulangan Pasien/15.png'
+          },
             'Setelah itu klik tombol yes',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Pemulangan Pasien/16.png'
+          },
+            'Muncul informasi “Patient Marked For Discharged” ',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Pemulangan Pasien/17.png'
+          },
             'Setelah pasien berhasil di marked for discharge, kemudian klik search untuk mencari pasien berdasarkan search criteria',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Pemulangan Pasien/18.png'
+          },
             'Pada patient status pilih Marked for discharge, klik tombol search',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Pemulangan Pasien/19.png'
+          },
             'Lalu akan tampil list pasien yang telah dilakukan marked for discharge',
           {
             type: 'image',
-            title: 'Contoh Gambar',
-            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+            content: '/images/perawat/perawat-rawat-inap/Prosedur Pemulangan Pasien/20.png'
           },
-
           {
             type: 'video',
             title: 'Lihat Video Tutorial',
-            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+            content: 'https://drive.google.com/file/d/10Bv6qkc6iH43SAV6Izxn0L7r3kNmQifn/view?usp=drive_link'
           }
         ],
       }
@@ -1628,30 +1706,66 @@ export const contentData: Record<string, ContentItem> = {
         description: 'Buka aplikasi dan pilih menu Apps',
         details: [
             'Pada menu Apps, pilih menu Inpatients',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Pembuatan SKL (Birth Notifications)/1.png'
+          },
             'Masuk ke halaman inpatient, Pilih Nursing Work Bench',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Pembuatan SKL (Birth Notifications)/2.png'
+          },
             'Masuk ke halaman nursing work bench, setelah itu search nama pasien',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Pembuatan SKL (Birth Notifications)/3.png'
+          },
             'Kemudian klik administrative, pilih Birth notification',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Pembuatan SKL (Birth Notifications)/4.png'
+          },
             'Isi form selengkap-lengkapnya, kolom dengan tanda bintang (*) wajib diisi',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Pembuatan SKL (Birth Notifications)/5.png'
+          },
             'Klik tombol Update',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Pembuatan SKL (Birth Notifications)/6.png'
+          },
             'Setelah itu klik tombol add ',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Pembuatan SKL (Birth Notifications)/7.png'
+          },
             'Jika sudah klik tombol add muncul data yang sudah diadd',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Pembuatan SKL (Birth Notifications)/8.png'
+          },
             'Lalu klik tombol save',
+          {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Pembuatan SKL (Birth Notifications)/9.png'
+          },
             'Tampil informasi saved successfully',
           {
             type: 'image',
-            title: 'Contoh Gambar',
-            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+            content: '/images/perawat/perawat-rawat-inap/Pembuatan SKL (Birth Notifications)/10.png'
           },
-
           {
             type: 'video',
             title: 'Lihat Video Tutorial',
-            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+            content: 'https://drive.google.com/file/d/1l-uuEY3R_KhC23wk2Q0W3efqe9ty82pU/view?usp=drive_link'
           }
         ],
       }
     ]
   },
+
+  /*heru-16/12/2025*/
 
   'proses-pengembalian-pasien-kabur-abscounded-ke-kamar-perawatan': {
     id: 'proses-pengembalian-pasien-kabur-abscounded-ke-kamar-perawatan',
