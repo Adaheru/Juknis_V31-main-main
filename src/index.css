@@ -459,6 +459,19 @@ body {
   color: var(--gray-dark);
 }
 
+/* hanya aktif jika perlu */
+.step-description.with-bullet {
+  position: relative;
+  padding-left: 1rem;
+}
+
+.step-description.with-bullet::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0.15rem;
+}
+
 .step-chevron {
   transition: transform 0.3s ease;
   margin-left: 1rem;

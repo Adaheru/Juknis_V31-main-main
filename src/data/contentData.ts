@@ -10,6 +10,7 @@ export interface ContentStep {
   number: number;
   title: string;
   description: string;
+  useBullet?: boolean;
   details?: (string | DetailItem)[];
 }
 
@@ -1766,7 +1767,7 @@ export const contentData: Record<string, ContentItem> = {
   },
 
   /*heru-16/12/2025*/
-
+  /*heru-19/12/2025*/
   'proses-pengembalian-pasien-kabur-abscounded-ke-kamar-perawatan': {
     id: 'proses-pengembalian-pasien-kabur-abscounded-ke-kamar-perawatan',
     menuKey: 'perawat',
@@ -1780,28 +1781,64 @@ export const contentData: Record<string, ContentItem> = {
         description: 'Buka aplikasi dan pilih menu Apps',
         details: [
             'Pada menu Apps, pilih menu Inpatients',
-            'Masuk ke halaman inpatient, Pilih Nursing Work Bench',
-            'Kemudian cari nama pasien berdasarkan search criteria yaitu dengan',
-            'Patient status : Abscounded  dan No MRN pasien',
-            'Lalu klik tombol search',
-            'Jika nama pasien telah ditemukan, lalu klik administrative',
-            'Pilih Revert abscounding patient',
-            'Lalu akan muncul form, pilih reason',
-            'Setelah itu klik tombol yes',
-            'Maka akan muncul informasi pasien tersebut berhasil “Marked Abscounded”',
-            'Setelah itu lakukan pencarian berdasarkan criteria dengan patient status : Under IP',
-            'Klik tombol search',
-            'Maka status pasien sudah pindah kembali ke Under IP',
-          {
+            {
             type: 'image',
-            title: 'Contoh Gambar',
-            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
+            content: '/images/perawat/perawat-rawat-inap/Proses Pengembalian Pasien Kabur (Abscounded) Ke Kamar Perawatan/1.png'
           },
-
+            'Masuk ke halaman inpatient, Pilih Nursing Work Bench',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Pengembalian Pasien Kabur (Abscounded) Ke Kamar Perawatan/2.png'
+          },
+            'Kemudian cari nama pasien berdasarkan search criteria yaitu dengan "Patient status : Abscounded  dan No MRN pasien", Lalu klik tombol search',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Pengembalian Pasien Kabur (Abscounded) Ke Kamar Perawatan/3.png'
+          },
+            'Jika nama pasien telah ditemukan, lalu klik administrative',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Pengembalian Pasien Kabur (Abscounded) Ke Kamar Perawatan/4.png'
+          },
+            'Pilih Revert abscounding patient',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Pengembalian Pasien Kabur (Abscounded) Ke Kamar Perawatan/5.png'
+          },
+            'Lalu akan muncul form, pilih reason',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Pengembalian Pasien Kabur (Abscounded) Ke Kamar Perawatan/6.png'
+          },
+            'Setelah itu klik tombol yes',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Pengembalian Pasien Kabur (Abscounded) Ke Kamar Perawatan/7.png'
+          },
+            'Maka akan muncul informasi pasien tersebut berhasil “Marked Abscounded”',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Pengembalian Pasien Kabur (Abscounded) Ke Kamar Perawatan/8.png'
+          },
+            'Setelah itu lakukan pencarian berdasarkan criteria dengan patient status : Under IP Care',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Pengembalian Pasien Kabur (Abscounded) Ke Kamar Perawatan/9.png'
+          },             
+            'Klik tombol search',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Pengembalian Pasien Kabur (Abscounded) Ke Kamar Perawatan/10.png'
+          },            
+            'Maka status pasien sudah pindah kembali ke Under IP',
+            {
+            type: 'image',
+            content: '/images/perawat/perawat-rawat-inap/Proses Pengembalian Pasien Kabur (Abscounded) Ke Kamar Perawatan/11.png'
+          },
           {
             type: 'video',
             title: 'Lihat Video Tutorial',
-            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+            content: 'https://drive.google.com/file/d/19OGDbIr50RifCj069Z0u1hA2obr9_zEr/view?usp=drive_link'
           }
         ],
       }
@@ -1818,50 +1855,103 @@ export const contentData: Record<string, ContentItem> = {
         id: 'service-order-processor-melalui-inpatient-step-1',
         number: 1,
         title: 'Service Order Processor Melalui Inpatient',
-        description: 'Tujuan Service order prosesor adalah melakukan validasi terhadap item service/tindakan yang sudah di order baik untuk mendapatkan kesesuaian nama dokter yang melakukan tindakan dan menerima honor dokternya (rendering doctor ). Prosedur ini dilakukan pada saat : A) Transfer pasien ke ruangan lain (perawat yang mengantar melakukan prosedur service order processor dan perawat yang menerima memastikan seluruh transaksi telah di verifikasi) ; B) Penerimaan pasien baru di ruang rawat inap (perawat yang melakukan verifikasi/  service order processor adalah perawat yang mengantar, sedangkan perawat yang menerima memastikan seluruh transaksi telah di verifikasi) ; C) Setiap akhir shift ; D)Saat pemulangan pasien',
+        description: 'Tujuan Service order prosesor adalah melakukan validasi terhadap item service/tindakan yang sudah di order baik untuk mendapatkan kesesuaian nama dokter yang melakukan tindakan dan menerima honor dokternya (rendering doctor ). Prosedur ini dilakukan pada saat :  A) Transfer pasien ke ruangan lain (perawat yang mengantar melakukan prosedur service order processor dan perawat yang menerima memastikan seluruh transaksi telah di verifikasi) ; B) Penerimaan pasien baru di ruang rawat inap (perawat yang melakukan verifikasi/  service order processor adalah perawat yang mengantar, sedangkan perawat yang menerima memastikan seluruh transaksi telah di verifikasi) ; C) Setiap akhir shift ; D)Saat pemulangan pasien',
+        useBullet: true,
         details: [
                   'Pada menu Apps, pilih Inpatient',
+                   {
+                    type: 'image',
+                    content: '/images/perawat/perawat-rawat-inap/Service Order Processor Melalui Inpatient/1.png'
+                   },
                   'Pilih menu Nursing Work Bench',
-                  'Klik Search',
-                  'Cari pasien berdasarkan kriteria sebagai berikut :',
-                  'Patien status : Under IP',
-                  'Active patients : Active',
-                  'Service center : disesuaikan',
-                  'Klik tombol search',
+                   {
+                    type: 'image',
+                    content: '/images/perawat/perawat-rawat-inap/Service Order Processor Melalui Inpatient/2.png'
+                   },
                   'Cari nama pasien, salin nomor MRN pasien tersebut',
+                   {
+                    type: 'image',
+                    content: '/images/perawat/perawat-rawat-inap/Service Order Processor Melalui Inpatient/3.png'
+                   },
                   'Klik tanda panah pada sisi kiri',
-                  'Klik menu Transaction pada sisi bilah kiri',
+                   {
+                    type: 'image',
+                    content: '/images/perawat/perawat-rawat-inap/Service Order Processor Melalui Inpatient/4.png'
+                   },
+                  'Klik menu "Transaction" pada sisi bilah kiri',
+                   {
+                    type: 'image',
+                    content: '/images/perawat/perawat-rawat-inap/Service Order Processor Melalui Inpatient/5.png'
+                   },
                   'Pilih service order processor',
+                   {
+                    type: 'image',
+                    content: '/images/perawat/perawat-rawat-inap/Service Order Processor Melalui Inpatient/6.png'
+                   },
                   'Klik tab Pending sevice order',
                   'Klik search',
+                   {
+                    type: 'image',
+                    content: '/images/perawat/perawat-rawat-inap/Service Order Processor Melalui Inpatient/7.png'
+                   },
                   'Lakukan pencarian berdasarkan kriteria berikut :',
                   'MRN : disesuaikan',
                   'Visit Type : disesuaikan',
                   'Klik tombol search',
+                   {
+                    type: 'image',
+                    content: '/images/perawat/perawat-rawat-inap/Service Order Processor Melalui Inpatient/8.png'
+                   },                  
                   'Maka akan tampil data pasien tersebut bila ada transaksi yang belum di verifikasi',
                   'Lakukan penyelesaian verifikasi setiap transaksi, dengan cara :',
                   'Cek “Ordered  By” untuk memastikan nama dokter yang akan dilakukan verifikasi',
-                  'Checklist kotak pada kolom process di setiap transaksi (lakukan satu persatu)',
+                   {
+                    type: 'image',
+                    content: '/images/perawat/perawat-rawat-inap/Service Order Processor Melalui Inpatient/9.png'
+                   },
+                  'Checklist kotak pada kolom "process" di setiap transaksi (lakukan satu persatu)',
+                   {
+                    type: 'image',
+                    content: '/images/perawat/perawat-rawat-inap/Service Order Processor Melalui Inpatient/10.png'
+                   },
                   'Klik save',
-                  'Pada bagian Rendering Employee isi nama dokter di pilihan select employee sesuai dengan nama dokter pada informasi kolom order by (contoh gambar pada bagian sebelumnya)',
+                   {
+                    type: 'image',
+                    content: '/images/perawat/perawat-rawat-inap/Service Order Processor Melalui Inpatient/11.png'
+                   },
+                  'Pada bagian Rendering Employee isi nama dokter di pilihan select employee sesuai dengan nama dokter pada informasi kolom order by (contoh gambar pada bagian sebelumnya)', 
                   'Ketik ikon %%% untuk mencari nama dokter',
+                   {
+                    type: 'image',
+                    content: '/images/perawat/perawat-rawat-inap/Service Order Processor Melalui Inpatient/12.png'
+                   },
                   'Setelah pilih nama dokter maka field departement secara otomatis akan terisi datanya',
+                   {
+                    type: 'image',
+                    content: '/images/perawat/perawat-rawat-inap/Service Order Processor Melalui Inpatient/13.png'
+                   },                  
                   'Lalu klik ikon tambah (+)',
+                   {
+                    type: 'image',
+                    content: '/images/perawat/perawat-rawat-inap/Service Order Processor Melalui Inpatient/14.png'
+                   },
                   'Untuk nama dokter sudah ditambahkan',
                   'Klik Ok',
+                  {
+                    type: 'image',
+                    content: '/images/perawat/perawat-rawat-inap/Service Order Processor Melalui Inpatient/15.png'
+                   },
                   'Maka akan tampil informasi “Order are processed successfully”',
+                  {
+                    type: 'image',
+                    content: '/images/perawat/perawat-rawat-inap/Service Order Processor Melalui Inpatient/16.png'
+                   },
                   'Verifikasi transaksi atau service order processor telah berhasil dilakukan',
                   'Lakukan langkah yang sama untuk transaksi yang lainnya sampai seluruh transaksi selesai dilakukan',
           {
-            type: 'image',
-            title: 'Contoh Gambar',
-            content: '/images/front_office/registrasi_pasien/perubahan_jaminan_pasien/3.png'
-          },
-
-          {
             type: 'video',
             title: 'Lihat Video Tutorial',
-            content: 'https://drive.google.com/file/d/1QCUpcBNN7AAc2KjC_W0wXtaLPrEmTXb4/preview'
+            content: 'https://drive.google.com/file/d/1V7S4WICnra9tZjlDOcqOlG-w2V0RFXn6/view?usp=drive_link'
           }
         ],
       }

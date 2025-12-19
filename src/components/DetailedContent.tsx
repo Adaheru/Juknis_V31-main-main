@@ -49,7 +49,12 @@ const DetailedContent = ({ itemId, onBack }: DetailedContentProps) => {
                 <span className="step-number">{step.number}</span>
                 <div className="step-title-section">
                   <h3 className="step-title">{step.title}</h3>
-                  <p className="step-description">{step.description}</p>
+                  <p
+                    className={`step-description ${
+                     step.useBullet ? "with-bullet" : ""
+                   }`}>
+                    {step.description}
+                  </p>
                 </div>
               </div>
               <ChevronDown
